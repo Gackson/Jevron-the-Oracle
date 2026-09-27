@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-27",
+  "environment": "local HTTPS development service",
+  "cases": [
+    {
+      "requestId": "93DEB236-FD8D-4D0E-B33B-58039C8C5D7B",
+      "characterId": "oracle",
+      "catalogVersion": "2026-09-27.words4",
+      "status": "complete",
+      "stopReason": "rule_complete",
+      "origin": "jev",
+      "generationStatus": "complete",
+      "generationStopReason": "rule_complete",
+      "segments": [
+        {
+          "candidateId": "oracle.composed",
+          "text": "A beginning is not a promise to finish everything."
+        }
+      ],
+      "selectedCandidateIds": [
+        "oracle.begin.01"
+      ],
+      "metrics": {
+        "calls": 1,
+        "latencyMs": 2121
+      }
+    },
+    {
+      "requestId": "1c62f09c-5c4e-4722-97bc-1d8de9c31ca7",
+      "characterId": "stone",
+      "catalogVersion": "2026-09-27.words4",
+      "status": "complete",
+      "stopReason": "fallback_complete",
+      "origin": "authored_fallback",
+      "generationStatus": "failed",
+      "generationStopReason": "composition_error",
+      "segments": [
+        {
+          "candidateId": "stone.service_fallback",
+          "text": "The echo has not crossed the stone. Ask again."
+        }
+      ],
+      "selectedCandidateIds": [
+        "stone.service_fallback"
+      ],
+      "metrics": {
+        "calls": 4,
+        "latencyMs": 9029
+      }
+    },
+    {
+      "requestId": "1e2c74d3-f23b-4150-89de-2a643f3cf70e",
+      "characterId": "jester",
+      "catalogVersion": "2026-09-27.words4",
+      "status": "complete",
+      "stopReason": "fallback_complete",
+      "origin": "authored_fallback",
+      "generationStatus": "failed",
+      "generationStopReason": "invalid_model_output",
+      "segments": [
+        {
+          "candidateId": "jester.service_fallback",
+          "text": "My words have missed their cue. Give them another entrance."
+        }
+      ],
+      "selectedCandidateIds": [
+        "jester.service_fallback"
+      ],
+      "metrics": {
+        "calls": 10,
+        "latencyMs": 29159
+      }
+    }
+  ],
+  "iosLiveClient": {
+    "test": "ReadingAPITests.testLocalHTTPSServiceWhenExplicitlyEnabled",
+    "result": "passed",
+    "origin": "jev",
+    "generationStatus": "complete",
+    "durationSeconds": 3.975
+  },
+  "limitations": [
+    "Single synthetic live question per role, not a language-quality benchmark.",
+    "Stone composition_error and Jester invalid_model_output returned authored character fallbacks.",
+    "No public service deployed or physical iPhone connection tested."
+  ]
+}

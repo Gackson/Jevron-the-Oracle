@@ -1,0 +1,152 @@
+[image]
+goose|A solemn bird treating a small task as official business; one coherent comic participant.
+potato|An unqualified but earnest substitute for a serious adviser or grand plan.
+spoon|A tiny tool attempting a task far beyond its purpose.
+sock|A misplaced everyday object mistaken for a resource or destination.
+toaster|A domestic machine given an absurdly important job; keep it in one scene.
+cabbage|A pompous-looking vegetable standing in for overcomplicated thinking.
+pancake|A flat, fragile stand-in for a grand structure or ambition.
+pigeon|An unreliable messenger behaving as if it has excellent credentials.
+pickle|A small ridiculous complication, not a real medical remedy.
+jelly|Something wobbling when it tries to behave with authority.
+umbrella|Excessive preparation for a problem that may not arrive.
+bathtub|A very local vessel pretending to be a grand expedition.
+wig|An outward disguise that changes appearance but not the underlying task.
+moustache|Unnecessary decoration being mistaken for expertise.
+helmet|Comically excessive protection for a harmless first step; never mock real precautions.
+kazoo|A tiny noisy instrument announcing an event as if it were magnificent.
+banana|A familiar object placed in an implausible professional role.
+pudding|A soft and indecisive participant trying to carry a serious responsibility.
+waffle|An edible object offering far more ceremony than practical support.
+onion|A layered everyday object with a needlessly dramatic entrance.
+turnip|An earnest vegetable recruited for a task it cannot reasonably understand.
+noodle|A flexible, wandering plan personified as a single strand.
+beetle|A tiny worker making a disproportionately grand effort.
+snail|A patient but implausibly promoted participant; slow is not automatically wrong.
+penguin|A formally dressed bird assigned an ordinary human responsibility.
+wizard|An exaggerated promise of magic; do not present magic as a real solution.
+pirate|An overdramatic participant treating an ordinary choice as an expedition.
+dentist|A mismatched specialist attending to an ordinary nonmedical object.
+librarian|A guardian of order placed in a mildly chaotic scene.
+butler|A ceremonious helper serving an absurdly small or unsuitable guest.
+captain|Authority over a tiny imaginary voyage, not expertise about real danger.
+mayor|An official promoted far beyond the importance of the scene.
+astronaut|An explorer preparing extravagantly for an everyday task.
+dragon|A fictional participant with grand size and unexpectedly mundane concerns.
+robot|A literal-minded helper taking a harmless instruction too seriously.
+circus|A collection of ordinary tasks made unnecessarily theatrical.
+lunch|An ordinary need that interrupts grand plans.
+biscuit|A small ordinary reward treated as an important appointment.
+teapot|A modest vessel pretending to manage a very large situation.
+trumpet|An unnecessarily grand announcement for a small event.
+balloon|An inflated promise or an object difficult to keep grounded.
+confetti|Celebration arriving at a comically inappropriate but harmless moment.
+crown|A small worry granting itself unnecessary authority.
+wheel|Movement that should serve a destination rather than merely continue.
+pocket|A small place hiding a resource or an improbable participant.
+door|An available beginning or boundary; keep its role consistent.
+map|A proposed direction, not proof that a journey has happened.
+plan|A practical intention that can acquire absurd helpers without losing its purpose.
+idea|An unfinished possibility needing a small trial rather than a royal ceremony.
+question|The actual thing being asked, not a pretext to list unrelated objects.
+answer|A response that may be playful but should connect to the question.
+problem|An obstacle; do not replace a concrete serious problem with a joke.
+work|A task or creation that deserves a manageable next step.
+rest|Recovery from depleted capacity; not laziness to ridicule.
+time|A limited resource; do not claim knowledge of exact future events.
+meeting|An ordinary discussion that may accumulate absurd formality.
+calendar|Plans and dates; never claim it knows future outcomes.
+deadline|A time limit that can become comically overbearing.
+homework|A concrete small task inviting an unnecessarily elaborate helper.
+permission|Authorization; distinguish unnecessary self-doubt from consent that is owed.
+hope|A wished-for possibility, not guaranteed knowledge.
+fear|An imagined worry; distinguish it from evidence of real danger.
+friend|Another person with their own choices, not a target for humiliation.
+future|An unknown outcome; absurd imagery is not a prediction.
+truth|What is supported; do not invent hidden facts for a punchline.
+warning|Evidence of a real risk that should be taken seriously.
+danger|Actual harm; put clear care before comedy.
+help|Practical support; prefer direct language when safety is at stake.
+safety|Protection against real harm, not a subject to trivialize.
+consent|Permission owed to another person; never treat it as an obstacle to bypass.
+[verb]
+wears|Puts an incongruous costume on a subject while keeping the same subject.
+juggles|Treats a manageable object or task as a circus act; needs an object.
+audits|Examines an absurdly mundane object as if conducting a formal audit.
+negotiates|Bargains ceremoniously with someone or something; can take a with-phrase.
+apologizes|Offers unnecessary politeness after a harmless comic mishap.
+sneezes|A small involuntary interruption puncturing excessive seriousness.
+waddles|Moves with an earnest, ungainly gait; keep the subject in the scene.
+tapdances|Performs an implausible little celebration or distraction.
+polishes|Improves the surface of something instead of starting the real task.
+marinates|Treats an abstract plan as food; needs an object and remains metaphorical.
+inflates|Makes a small thing disproportionately grand; needs an object.
+borrows|Uses an unsuitable ordinary object as temporary help.
+delivers|Brings a concrete object with far too much ceremony.
+misplaces|Loses a harmless object in a ridiculous but understandable way.
+rehearses|Practices a small action as if it were a major performance.
+salutes|Greets an ordinary object as a superior officer.
+interviews|Gives a mundane object an unnecessarily formal selection process.
+promotes|Grants absurd status to a small helper or obstacle.
+carries|Moves one coherent object through the scene.
+needs|Connects the actual problem to a modest, possibly absurd requirement.
+keeps|Retains one object or concern rather than changing the subject.
+waits|Pauses for something; do not confuse rest with endless avoidance.
+starts|Begins a task or event, without guaranteeing its result.
+returns|Comes back to the same scene or topic.
+looks|Directs attention, often with a preposition.
+knows|Use only for ordinary stated context, not hidden motives or future facts.
+asks|Requests a concrete thing or another person's input.
+helps|Offers assistance with an object; never pretends comedy solves danger.
+learns|Discovers something from an ordinary attempt.
+laughs|Responds lightly to a harmless situation, never at a person's worth.
+wear
+juggle
+audit
+negotiate
+apologize
+sneeze
+waddle
+tapdance
+polish
+seek|Look for practical help when a problem or danger requires it.
+inflate
+borrow
+deliver
+misplace
+rehearse
+salute
+interview
+promote
+help
+begin
+[quality]
+suspicious|Comically questionable, not an accusation about a real person.
+nervous|A harmless object's exaggerated hesitation, not ridicule of distress.
+ceremonial|Far too much ceremony for an ordinary task.
+invisible|An explicitly fanciful property, never a claim about hidden facts.
+wobbly|Unable to maintain an unnecessarily dignified pose.
+tiny|A small scale contrasted with a grand responsibility.
+royal|Unnecessary status given to an ordinary object.
+confused|An earnest but mildly mistaken participant.
+polite|Courtesy that becomes excessive in an absurd situation.
+ferocious|Comically grand intensity assigned to a harmless little object.
+soggy|A grand plan with a very mundane physical inconvenience.
+sparkly|Unnecessary decoration, not evidence of usefulness.
+portable|An unexpected claim that an unwieldy concern can be carried around.
+upside-down|A visible absurd orientation within the same scene.
+unlicensed|A fictional object's lack of qualifications; do not undermine real expertise.
+velvet|An unnecessarily luxurious material for a mundane purpose.
+sleepy|A modest need for rest, expressed gently.
+noisy|A harmless fuss that overwhelms the importance of the task.
+triangular|A concrete absurd shape, rather than an unrelated new metaphor.
+ordinary|The small actual situation beneath the elaborate performance.
+small
+new
+old
+ready
+safe
+real
+serious
+absurd
+rubbery|A supposedly dignified object bending in an undignified but harmless way.

@@ -1,0 +1,35 @@
+[
+  {
+    "character": "oracle",
+    "master": "oracle-master.png",
+    "background": "oracle-background-v2.png",
+    "mask": "oracle-foreground-v2.mask",
+    "masterSHA256": "474d988ebeb17a628488fb6d0625ea8a3377f642c7ed2f21df3cc1a7648ff673",
+    "backgroundSHA256": "5956e5d5014b19eb01b0bd059a026f08329a24e28fd1868b3b61457b1fbda0c9",
+    "method": "Vision mask + original master pixels + imagegen clean plate",
+    "sourceRevision": "v2",
+    "verification": "iPhone Air simulator: layered assertion and center/opposite diagonal screenshots passed; physical motion/performance pending"
+  },
+  {
+    "character": "stone",
+    "master": "stone-master.png",
+    "background": "stone-background-v2.png",
+    "mask": "stone-foreground-v2.mask",
+    "masterSHA256": "bde3a4afa011088e177a3378b3787fddd0c7a7ccd05730f6b019a85b16df8f55",
+    "backgroundSHA256": "762533343e9ccafdfac89fa34014da0c82de1e4e498309e1b8b6748aae8a1efb",
+    "method": "Vision mask + original master pixels + imagegen clean plate",
+    "sourceRevision": "v2",
+    "verification": "iPhone Air simulator: layered assertion and center/opposite diagonal screenshots passed; physical motion/performance pending"
+  },
+  {
+    "character": "jester",
+    "master": "jester-master.png",
+    "background": "jester-background-v2.png",
+    "mask": "jester-foreground-v2.mask",
+    "masterSHA256": "cd90ae5a0b434b0ae7a6b600cda9a885f1f24fa70436913fc6787458409f1226",
+    "backgroundSHA256": "6747d4f9b3ab30cce3e2c1f4f0beec66488d9ff4548873ee25c268110b127496",
+    "method": "Vision mask + original master pixels + imagegen clean plate",
+    "sourceRevision": "v2",
+    "verification": "iPhone Air simulator: layered assertion and center/opposite diagonal screenshots passed; physical motion/performance pending"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "catalogVersion": "2026-09-27.roles4",
+    "question": "My homework is boring. Give me a silly way to think about it.",
+    "origin": "jev",
+    "text": "Homework is a potato now to work. It juggles a plan.",
+    "durationSeconds": 14.67,
+    "transport": "iOS DirectJEVClient → TypeSafe",
+    "quality": "awkward purpose phrase and unnecessary second sentence"
+  },
+  {
+    "catalogVersion": "2026-09-27.roles4b",
+    "question": "My homework is boring. Give me a silly way to think about it.",
+    "origin": "jev",
+    "text": "Homework is a potato with a plan.",
+    "durationSeconds": 7.535,
+    "transport": "iOS DirectJEVClient → TypeSafe",
+    "quality": "readable absurd single sentence; one sample only"
+  }
+]

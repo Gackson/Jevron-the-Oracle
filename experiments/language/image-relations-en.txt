@@ -1,0 +1,45 @@
+# word | role / physical relation | possible referents and limits
+[fool]
+potato|An ordinary, earnest temporary helper; not a universal adviser.|Filling in for someone; participating without the required qualifications.
+goose|A solemn gatekeeper or inspector who can patrol or audit.|Excessive checking of a small task; ceremony larger than the occasion.
+toaster|A worker built for one repetitive job, given an unsuitable promotion.|Monotonous work; too many simultaneous responsibilities.
+spoon|A very small tool or negotiator confronting a large task.|Mismatch between means and ambition; beginning with modest resources.
+sock|A misplaced partner or overlooked piece of equipment.|Missing coordination; losing a small but necessary detail.
+umbrella|A protective helper prepared for weather that may not arrive.|Overpreparation for a harmless attempt; allowing for uncertain conditions.
+pigeon|An unreliable messenger, not an oracle about another person's motives.|Waiting for news; communication through too many intermediaries.
+snail|A slow traveller carrying its own shelter.|Steady effort with slow visible progress; slowness need not mean failure.
+penguin|A formally dressed but inexperienced colleague.|Feeling unprepared in a formal setting; appearance versus experience.
+calendar|A scheduler that can demand more than a day can hold.|Overfilled schedules; confusing a wish with a scheduled action.
+teapot|A small host expected to manage an oversized gathering.|Limited capacity for looking after others; grand negotiation on a domestic scale.
+pudding|A soft participant asked to take a firm position.|Indecision; responsibility arriving before readiness.
+jelly|A wobbling organizer unable to keep its own shape.|Rules that keep shifting; plans changing with external pressure.
+balloon|A promise that expands while losing its connection to the ground.|Inflated expectations; plans without practical support.
+crown|A badge of authority that can be given to an undeserving concern.|A minor worry claiming command; status mistaken for competence.
+moustache|An ornament mistaken for seniority or expertise.|Performing maturity; appearance standing in for experience.
+robot|A literal helper that follows a harmless instruction too narrowly.|Rigid routines; following a process while missing its purpose.
+butler|A ceremonial helper attending to an unsuitable guest.|Excessive service to a trivial concern; formalities taking over a task.
+librarian|A keeper of order in a disorganized scene.|Sorting competing ideas; wanting every detail filed before beginning.
+noodle|A flexible strand treated as a plan or connection.|A wandering plan; bending without a clear direction.
+[stone]
+stone|A solid surface that retains marks while enduring wear.|Persistence and memory; not a universal stand-in for every person or difficulty.
+water|A fluid whose movement depends on its container and terrain.|Adaptation and flow; not every kind of change, nor a promise that problems solve themselves.
+path|A passage made or used through movement.|Direction and practical steps; use for a journey or a choice of route, not every question.
+well|A source from which water can be drawn, with a finite supply.|Giving requires replenishment; noticing available resources.
+knot|A local entanglement that can tighten when pulled.|A conflict needing examination before force; distinguish from the whole connection.
+rope|A connection that becomes taut when its ends are pulled apart.|Control within a relationship; one end cannot supply all mutual effort.
+seam|The visible join between formerly separate pieces.|Repair that leaves a mark; imperfection need not invalidate the work.
+ember|Heat remaining after the main fire has passed.|An ending with lingering effects; never assume a relationship should be rekindled.
+clay|Material that can be shaped before it sets.|An unfinished draft still open to revision; unformed is not failed.
+root|Support and connection below the visible surface.|Unseen foundations; deep attachment need not forbid leaving.
+seed|A living beginning that requires continued care.|An effort already started but not yet visible; distinguish from never beginning.
+shore|A boundary where water and land meet without becoming identical.|Contact with limits; closeness need not erase independence.
+basin|A container with a definite capacity.|Overcommitment; room must remain for replenishment.
+mirror|A surface returning an appearance rather than choosing a direction.|External judgement; being seen is different from knowing what matters.
+threshold|The boundary immediately before entering.|A first step or beginning; crossing does not guarantee the whole journey.
+bridge|A structure connecting two sides while bearing a limited load.|Communication that needs both sides to be reachable; connection has limits.
+ash|Residue after fuel has been consumed.|Finished expenditure; not a source from which to demand the old heat.
+thread|A thin connection that can be continued or broken.|A tentative relationship or clue; a clue is not proof.
+crack|A local weakness in a structure.|An actual need for repair; distinguish from imagined embarrassment.
+footprint|A trace of movement that has already happened.|Experience as evidence; another person's route is not an instruction.
+orbit|Movement around a center that remains unchanged.|Repeated patterns; activity without a change of position.
+echo|A sound returned through its surroundings.|A response requires expression; repetition is not independent evidence.

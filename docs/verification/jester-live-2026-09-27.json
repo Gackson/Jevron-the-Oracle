@@ -1,0 +1,29 @@
+{
+  "question": "Should I leave my girl?",
+  "catalogVersion": "2026-09-27.roles4c",
+  "runtimeSHA256": "e0747c5e64c5abf50d242771260d59ceb3f7e2d8c7f4cada613b082877a57f75",
+  "engineSHA256": "de6f08a3771de68f635dc2091b8e413ff995d2fbf0562cbcfbad6370afc9caef",
+  "iosLive": {
+    "origin": "jev",
+    "reply": "Why do you want permission to leave?",
+    "testDurationSeconds": 5.486
+  },
+  "localTests": {
+    "languagePassed": 32,
+    "integrationPassed": 8,
+    "iosPassed": 24,
+    "iosSkipped": 4
+  },
+  "randomLegalPaths": {
+    "perRole": 100,
+    "deadEnds": {
+      "stone": 0,
+      "jester": 0,
+      "fool": 0
+    }
+  },
+  "limitations": [
+    "No original device error trace is available.",
+    "Final procrastination sample remains unnatural; generation success is not a language-quality pass."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "character": "fool",
+  "master": "master-v3.png",
+  "canvas": [
+    853,
+    1844
+  ],
+  "depthSize": [
+    518,
+    392
+  ],
+  "sourceSHA256Verified": true,
+  "maxDiagonalContraction": 0.579580987258717,
+  "threshold": 0.85,
+  "anatomyReview": "two uncrossed legs and two grounded shoes; visually checked",
+  "deviceMotion": "not verified"
+}

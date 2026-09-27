@@ -1,0 +1,44 @@
+{
+  "catalogVersion": "2026-09-27.zh1-stela",
+  "promptVersion": "language-lab-6-zh-stela",
+  "runtimeSHA256": "00a4825b8620493b0ad48ca47298c843df999f3026204ad97ea9b144af031123",
+  "engineSHA256": "4b395bce23e81749230804a334dfb10d89239124f6d140e1b410cbe44fe3d521",
+  "localTests": {
+    "pythonLanguagePassed": 40,
+    "integrationPassed": 9,
+    "iosUnitPassed": 31,
+    "iosUnitSkipped": 5,
+    "iosUIPassed": 1
+  },
+  "liveRuns": [
+    {
+      "run": "jev-zh-live-ios",
+      "outputs": [
+        "JEV_ZH_LIVE role=oracle origin=jev reason=complete reply=告诉我，你希望每种答案替你守住什么。",
+        "JEV_ZH_LIVE role=stone origin=jev reason=complete reply=试行。",
+        "JEV_ZH_LIVE role=jester origin=jev reason=complete reply=为什么你想要分手？",
+        "JEV_ZH_LIVE role=fool origin=jev reason=complete reply=作业跳舞。",
+        "JEV_STELA_EN_LIVE origin=jev reply=Stone abideth. The stone beareth memory."
+      ]
+    },
+    {
+      "run": "jev-stela-bilingual-live",
+      "outputs": [
+        "JEV_ZH_LIVE role=stone origin=jev reason=complete reply=若步行，则路开明之路。",
+        "JEV_STELA_EN_LIVE origin=jev reply=What is the rest?"
+      ]
+    },
+    {
+      "run": "jev-stela-closure-live",
+      "outputs": [
+        "JEV_ZH_LIVE role=stone origin=jev reason=complete reply=若步行，则路开。",
+        "JEV_STELA_EN_LIVE origin=jev reply=Stone abideth after time."
+      ]
+    }
+  ],
+  "limitations": [
+    "Small synthetic sample only, not broad language-quality acceptance.",
+    "Chinese reply mode does not localize the entire interface.",
+    "Archaic English flavor, not reconstructed historical Old English."
+  ]
+}

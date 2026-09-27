@@ -1,0 +1,3390 @@
+{
+  "schemaVersion": "language-lab-1",
+  "catalogVersion": "2026-09-27.seed1",
+  "semantics": {
+    "begin": {
+      "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+      "useWhen": "A desired small action is delayed until the whole future is certain.",
+      "avoidWhen": "Starting would be dangerous or irreversible; the person has already begun.",
+      "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result."
+    },
+    "perfect": {
+      "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+      "useWhen": "A draft or low-stakes attempt is repeatedly corrected despite being usable.",
+      "avoidWhen": "There is a known serious defect, factual error, or safety problem.",
+      "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection."
+    },
+    "repair": {
+      "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+      "useWhen": "The question identifies a real fault or missing practical support.",
+      "avoidWhen": "Only imagined embarrassment or vague anxiety is described.",
+      "contrast": "Unlike perfectionism, caution here responds to observable evidence."
+    },
+    "release": {
+      "meaning": "Trying to force another person's response maintains the tension.",
+      "useWhen": "Repeated checking or persuasion seeks control over someone else's choice.",
+      "avoidWhen": "The person needs to state an unexpressed need or fulfill a responsibility.",
+      "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out."
+    },
+    "voice": {
+      "meaning": "An unspoken need cannot fairly be expected to be understood.",
+      "useWhen": "The person wants understanding but has not communicated a need or boundary.",
+      "avoidWhen": "The need has already been repeatedly and clearly expressed.",
+      "contrast": "Unlike release, there has not yet been an honest first communication."
+    },
+    "rest": {
+      "meaning": "Capacity has been depleted; pause is different from abandonment.",
+      "useWhen": "Sustained effort and concrete exhaustion are described.",
+      "avoidWhen": "The person is rested but repeatedly postpones a small desired action.",
+      "contrast": "Unlike avoidance, the limiting factor is energy rather than permission."
+    },
+    "repeat": {
+      "meaning": "A familiar method repeats without using evidence from its failures.",
+      "useWhen": "The same attempt is repeated and the same unwanted result returns.",
+      "avoidWhen": "A changed method is being tested or a useful practice needs time.",
+      "contrast": "Unlike patience, there is evidence that the method itself needs to change."
+    },
+    "patience": {
+      "meaning": "A process already underway needs time rather than repeated disturbance.",
+      "useWhen": "There has been a reasonable first action, but too little time for results.",
+      "avoidWhen": "There is a persistent failure pattern, urgent danger, or unstarted task.",
+      "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing."
+    },
+    "boundary": {
+      "meaning": "A freely chosen limit protects a person's finite capacity.",
+      "useWhen": "The person overcommits to avoid disappointing others.",
+      "avoidWhen": "The person wishes to withdraw from all contact or evade an agreed obligation.",
+      "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone."
+    },
+    "approval": {
+      "meaning": "Other people's approval has displaced the person's own judgment.",
+      "useWhen": "A personal preference changes whenever a new opinion is heard.",
+      "avoidWhen": "The decision needs expertise or consent from people actually affected.",
+      "contrast": "Unlike missing evidence, this concerns excess permission-seeking."
+    },
+    "loss": {
+      "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+      "useWhen": "The person struggles to leave an ended chapter while retaining its value.",
+      "avoidWhen": "The situation remains repairable and no ending has been described.",
+      "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply."
+    },
+    "unclear": {
+      "meaning": "The question omits the competing needs needed for a meaningful choice.",
+      "useWhen": "The person asks which path to choose without explaining what either serves.",
+      "avoidWhen": "The question already identifies a clear obstacle or asks for a factual prediction.",
+      "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict."
+    }
+  },
+  "catalogs": {
+    "oracle": {
+      "schemaVersion": "language-lab-1",
+      "catalogVersion": "2026-09-27.seed1",
+      "characterId": "oracle",
+      "variant": "oracle",
+      "mode": "whole_reply",
+      "minSelections": 1,
+      "maxSelections": 1,
+      "startSlot": "whole",
+      "maxWords": 32,
+      "instructions": "Choose one warm, understated complete reply addressing the specific tension, not merely the topic.",
+      "candidates": [
+        {
+          "id": "oracle.begin",
+          "text": "A beginning is not a promise to finish everything.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.begin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.perfect",
+          "text": "Let it be seen before it becomes flawless.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.perfect",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.repair",
+          "text": "Attend to the crack before asking the bridge to carry more.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.repair",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.release",
+          "text": "Some things loosen when you stop pulling.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.release",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.voice",
+          "text": "A quiet wish may need an audible shape.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.voice",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.rest",
+          "text": "You may put it down without walking away.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.rest",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.repeat",
+          "text": "Another attempt need not be the same attempt.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.repeat",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.patience",
+          "text": "Let what you have planted spend some time unseen.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.patience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.boundary",
+          "text": "A kind answer can still have an edge.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.boundary",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.approval",
+          "text": "Notice whose permission you are still waiting for.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.approval",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.loss",
+          "text": "You can keep its meaning without keeping its place.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.loss",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "oracle.unclear",
+          "text": "Name what each road would ask you to leave behind.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "whole",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "oracle.unclear",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        }
+      ]
+    },
+    "stone_nouns": {
+      "schemaVersion": "language-lab-1",
+      "catalogVersion": "2026-09-27.seed1",
+      "characterId": "stone",
+      "variant": "stone_nouns",
+      "mode": "fixed_sequence",
+      "minSelections": 3,
+      "maxSelections": 3,
+      "startSlot": "noun",
+      "maxWords": 32,
+      "instructions": "Choose a solemn material image connected to the question. Add a distinct aspect to earlier images; do not merely list synonyms.",
+      "candidates": [
+        {
+          "id": "stone.noun.threshold",
+          "text": "A threshold.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.threshold",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.footprint",
+          "text": "A first footprint.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.footprint",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.polish",
+          "text": "A polished surface.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.polish",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.eraser",
+          "text": "An eraser.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.eraser",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.crack",
+          "text": "A fracture.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.crack",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.support",
+          "text": "A support.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.support",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.rope",
+          "text": "A taut rope.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.rope",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.slack",
+          "text": "A slackened knot.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.slack",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.echo",
+          "text": "An unheard echo.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.echo",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.opening",
+          "text": "An opening.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.opening",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.basin",
+          "text": "An empty basin.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.basin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.shelter",
+          "text": "A shelter.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.shelter",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.orbit",
+          "text": "An orbit.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.orbit",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.groove",
+          "text": "A deepening groove.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.groove",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.seed",
+          "text": "A buried seed.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.seed",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.season",
+          "text": "A season.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.season",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.shore",
+          "text": "A shoreline.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.shore",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.weight",
+          "text": "A borrowed weight.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.weight",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.mirror",
+          "text": "A borrowed mirror.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.mirror",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.compass",
+          "text": "A compass.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.compass",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.sediment",
+          "text": "A layer of sediment.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.sediment",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.absence",
+          "text": "An absence.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.absence",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.fork",
+          "text": "A fork in the path.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.fork",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.noun.mist",
+          "text": "A bank of mist.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "noun",
+          "nextSlots": [
+            "noun"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.noun.mist",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        }
+      ]
+    },
+    "stone_inscription": {
+      "schemaVersion": "language-lab-1",
+      "catalogVersion": "2026-09-27.seed1",
+      "characterId": "stone",
+      "variant": "stone_inscription",
+      "mode": "phrase_sequence",
+      "minSelections": 2,
+      "maxSelections": 2,
+      "startSlot": "image",
+      "maxWords": 32,
+      "instructions": "Form a cold, spare inscription: one physical image and one meaningful relation. No jokes or direct advice. The relation must address the question and make sense for the selected image.",
+      "candidates": [
+        {
+          "id": "stone.head.threshold",
+          "text": "The threshold",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.threshold",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "place"
+          }
+        },
+        {
+          "id": "stone.head.surface",
+          "text": "The polished surface",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.surface",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "surface"
+          }
+        },
+        {
+          "id": "stone.head.crack",
+          "text": "The crack",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.crack",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "mark"
+          }
+        },
+        {
+          "id": "stone.head.rope",
+          "text": "The rope",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.rope",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "bond"
+          }
+        },
+        {
+          "id": "stone.head.echo",
+          "text": "The echo",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.echo",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "signal"
+          }
+        },
+        {
+          "id": "stone.head.basin",
+          "text": "The empty basin",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.basin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "vessel"
+          }
+        },
+        {
+          "id": "stone.head.orbit",
+          "text": "The orbit",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.orbit",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "path"
+          }
+        },
+        {
+          "id": "stone.head.seed",
+          "text": "The buried seed",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.seed",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "living"
+          }
+        },
+        {
+          "id": "stone.head.shore",
+          "text": "The shoreline",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.shore",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "place"
+          }
+        },
+        {
+          "id": "stone.head.mirror",
+          "text": "The borrowed mirror",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.mirror",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "surface"
+          }
+        },
+        {
+          "id": "stone.head.sediment",
+          "text": "The sediment",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.sediment",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "mark"
+          }
+        },
+        {
+          "id": "stone.head.fork",
+          "text": "The fork in the path",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "image",
+          "nextSlots": [
+            "relation"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.head.fork",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "place"
+          }
+        },
+        {
+          "id": "stone.relation.still",
+          "text": "does not move.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "The object remains; waiting alone does not make a crossing or decision happen.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.still",
+          "grammar": {
+            "accepts": [
+              "place",
+              "surface",
+              "mark",
+              "vessel"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.step",
+          "text": "cannot take the first step.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "An external object cannot perform the person's own small beginning.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.step",
+          "grammar": {
+            "accepts": [
+              "place",
+              "path",
+              "surface"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.trace",
+          "text": "still bears a trace.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "A trace of making survives polishing; imperfection need not erase worth.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.trace",
+          "grammar": {
+            "accepts": [
+              "surface",
+              "place",
+              "vessel"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.deeper",
+          "text": "runs beneath the surface.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A visible fault or pattern has depth; it should not be dismissed as mere appearance.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.deeper",
+          "grammar": {
+            "accepts": [
+              "mark",
+              "path",
+              "bond"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.force",
+          "text": "does not soften under force.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "More pressure does not necessarily remove resistance or produce consent.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.force",
+          "grammar": {
+            "accepts": [
+              "bond",
+              "place",
+              "surface"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.sound",
+          "text": "requires a first sound.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "A response needs an initial expression; silence alone cannot communicate a wish.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.sound",
+          "grammar": {
+            "accepts": [
+              "signal",
+              "vessel",
+              "place"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.empty",
+          "text": "cannot pour from emptiness.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "A depleted source cannot keep giving; replenishment precedes further effort.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.empty",
+          "grammar": {
+            "accepts": [
+              "vessel",
+              "living"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.center",
+          "text": "still circles the same center.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "Motion can return to the same unresolved pattern rather than change it.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.center",
+          "grammar": {
+            "accepts": [
+              "path",
+              "signal",
+              "bond"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.unseen",
+          "text": "changes out of sight.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process may develop without immediate visible proof; do not claim a future outcome.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.unseen",
+          "grammar": {
+            "accepts": [
+              "living",
+              "mark",
+              "place"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.edge",
+          "text": "holds an edge.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A form is maintained by a limit; holding a boundary need not mean hostility.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.edge",
+          "grammar": {
+            "accepts": [
+              "place",
+              "surface",
+              "vessel",
+              "mark"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.north",
+          "text": "cannot choose your north.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "An external reflection or route cannot determine an inner direction.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.north",
+          "grammar": {
+            "accepts": [
+              "surface",
+              "path",
+              "place",
+              "signal"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.remains",
+          "text": "remains after the water.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "A trace can remain after the conditions that formed it have passed.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.remains",
+          "grammar": {
+            "accepts": [
+              "mark",
+              "place",
+              "vessel"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.relation.unnamed",
+          "text": "has two unnamed sides.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The competing sides of a choice are not yet articulated.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "relation",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.relation.unnamed",
+          "grammar": {
+            "accepts": [
+              "place",
+              "surface",
+              "bond"
+            ],
+            "subjectType": null
+          }
+        }
+      ]
+    },
+    "stone_progression": {
+      "schemaVersion": "language-lab-1",
+      "catalogVersion": "2026-09-27.seed1",
+      "characterId": "stone",
+      "variant": "stone_progression",
+      "mode": "phrase_sequence",
+      "minSelections": 3,
+      "maxSelections": 3,
+      "startSlot": "context",
+      "maxWords": 32,
+      "instructions": "Form three connected images: a situation, a change, and a trace. Stay inside one physical scene or clearly connected metaphor; do not create three unrelated poetic lines or predict actual events.",
+      "candidates": [
+        {
+          "id": "stone.context.begin",
+          "text": "Before the crossing.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.begin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.perfect",
+          "text": "Beneath the polish.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.perfect",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.repair",
+          "text": "Along the fracture.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.repair",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.release",
+          "text": "At the tightened knot.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.release",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.voice",
+          "text": "Within the silence.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.voice",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.rest",
+          "text": "At the empty basin.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.rest",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.repeat",
+          "text": "Along the worn path.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.repeat",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.patience",
+          "text": "Beneath the soil.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.patience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.boundary",
+          "text": "At the shoreline.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.boundary",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.approval",
+          "text": "Before the borrowed mirror.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.approval",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.loss",
+          "text": "After the water.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.loss",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.context.unclear",
+          "text": "Between two paths.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "context",
+          "nextSlots": [
+            "change"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.context.unclear",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.begin",
+          "text": "The weight shifts.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.begin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.perfect",
+          "text": "A rough edge catches light.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.perfect",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.repair",
+          "text": "Pressure finds the weakness.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.repair",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.release",
+          "text": "The tension eases.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.release",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.voice",
+          "text": "A first sound travels.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.voice",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.rest",
+          "text": "The pressure settles.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.rest",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.repeat",
+          "text": "The groove deepens.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.repeat",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.patience",
+          "text": "Something moves unseen.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.patience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.boundary",
+          "text": "The edge holds.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.boundary",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.approval",
+          "text": "The reflection changes.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.approval",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.loss",
+          "text": "The current passes.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.loss",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.change.unclear",
+          "text": "The paths diverge.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "change",
+          "nextSlots": [
+            "trace"
+          ],
+          "terminal": false,
+          "dedupeGroup": "stone.change.unclear",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.begin",
+          "text": "A first mark.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.begin",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.perfect",
+          "text": "A visible seam.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.perfect",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.repair",
+          "text": "A place needing support.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.repair",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.release",
+          "text": "Room between the strands.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.release",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.voice",
+          "text": "A ripple beyond the source.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.voice",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.rest",
+          "text": "Space to fill again.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.rest",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.repeat",
+          "text": "The same ground.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.repeat",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.patience",
+          "text": "No sign above ground.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.patience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.boundary",
+          "text": "A shape preserved.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.boundary",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.approval",
+          "text": "The center remains unchosen.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.approval",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.loss",
+          "text": "A trace in the stone.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.loss",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "stone.trace.unclear",
+          "text": "Two different distances.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "trace",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "stone.trace.unclear",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        }
+      ]
+    },
+    "jester": {
+      "schemaVersion": "language-lab-1",
+      "catalogVersion": "2026-09-27.seed1",
+      "characterId": "jester",
+      "variant": "jester",
+      "mode": "phrase_sequence",
+      "minSelections": 2,
+      "maxSelections": 3,
+      "startSlot": "setup",
+      "maxWords": 32,
+      "instructions": "Create one readable absurd reversal tied to the user's actual tension. Mock an unhelpful arrangement, not the person's worth. Preserve one central metaphor; surprise must have a discernible reason. Do not trivialize real danger or grief.",
+      "candidates": [
+        {
+          "id": "jester.setup.backup",
+          "text": "Your backup plan",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.backup",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "plan"
+          }
+        },
+        {
+          "id": "jester.setup.draft",
+          "text": "Your first draft",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.draft",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "work"
+          }
+        },
+        {
+          "id": "jester.setup.warning",
+          "text": "The warning light",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A concrete, evidenced problem deserves attention before forward movement.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.warning",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "signal"
+          }
+        },
+        {
+          "id": "jester.setup.silence",
+          "text": "Their silence",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Trying to force another person's response maintains the tension.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.silence",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "signal"
+          }
+        },
+        {
+          "id": "jester.setup.wish",
+          "text": "Your unspoken wish",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "An unspoken need cannot fairly be expected to be understood.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.wish",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "message"
+          }
+        },
+        {
+          "id": "jester.setup.exhaustion",
+          "text": "Your exhaustion",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Capacity has been depleted; pause is different from abandonment.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.exhaustion",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "feeling"
+          }
+        },
+        {
+          "id": "jester.setup.routine",
+          "text": "Your routine",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "A familiar method repeats without using evidence from its failures.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.routine",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "plan"
+          }
+        },
+        {
+          "id": "jester.setup.seed",
+          "text": "Your seed",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process already underway needs time rather than repeated disturbance.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.seed",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "living"
+          }
+        },
+        {
+          "id": "jester.setup.yes",
+          "text": "Your yes",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "A freely chosen limit protects a person's finite capacity.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.yes",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "message"
+          }
+        },
+        {
+          "id": "jester.setup.audience",
+          "text": "Your imaginary audience",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.audience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "authority"
+          }
+        },
+        {
+          "id": "jester.setup.ending",
+          "text": "The ending",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "Something meaningful has ended; keeping its meaning need not mean restoring it.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.ending",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "event"
+          }
+        },
+        {
+          "id": "jester.setup.question",
+          "text": "Your question",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "The question omits the competing needs needed for a meaningful choice.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "setup",
+          "nextSlots": [
+            "close",
+            "appoint",
+            "permission"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.setup.question",
+          "grammar": {
+            "accepts": [],
+            "subjectType": "message"
+          }
+        },
+        {
+          "id": "jester.close.only",
+          "text": "has become your only plan.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A supposed fallback has quietly replaced taking the main action.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.only",
+          "grammar": {
+            "accepts": [
+              "plan"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.eraser",
+          "text": "has hired its eraser as a critic.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature criticism removes the thing it claims to improve.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.eraser",
+          "grammar": {
+            "accepts": [
+              "work",
+              "message"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.alarm",
+          "text": "is not auditioning for the role of decoration.",
+          "semanticCodes": [
+            "repair"
+          ],
+          "meaning": "A real warning should not be dismissed as ornamental; caution is justified.",
+          "useWhen": [
+            "The question identifies a real fault or missing practical support."
+          ],
+          "avoidWhen": [
+            "Only imagined embarrassment or vague anxiety is described."
+          ],
+          "contrast": "Unlike perfectionism, caution here responds to observable evidence.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.alarm",
+          "grammar": {
+            "accepts": [
+              "signal"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.interview",
+          "text": "is not accepting interviews.",
+          "semanticCodes": [
+            "release"
+          ],
+          "meaning": "Repeated questioning cannot force an answer from another person's silence or an ending.",
+          "useWhen": [
+            "Repeated checking or persuasion seeks control over someone else's choice."
+          ],
+          "avoidWhen": [
+            "The person needs to state an unexpressed need or fulfill a responsibility."
+          ],
+          "contrast": "Unlike voicing a need, this concerns continuing to pull after reaching out.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.interview",
+          "grammar": {
+            "accepts": [
+              "signal",
+              "event"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.whisper",
+          "text": "has mistaken a whisper for a press release.",
+          "semanticCodes": [
+            "voice"
+          ],
+          "meaning": "A private or unspoken need has been treated as if everybody already heard it.",
+          "useWhen": [
+            "The person wants understanding but has not communicated a need or boundary."
+          ],
+          "avoidWhen": [
+            "The need has already been repeatedly and clearly expressed."
+          ],
+          "contrast": "Unlike release, there has not yet been an honest first communication.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.whisper",
+          "grammar": {
+            "accepts": [
+              "message"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.leave",
+          "text": "has filed for leave on your behalf.",
+          "semanticCodes": [
+            "rest"
+          ],
+          "meaning": "Exhaustion acts like an employee asking for the rest the person will not request.",
+          "useWhen": [
+            "Sustained effort and concrete exhaustion are described."
+          ],
+          "avoidWhen": [
+            "The person is rested but repeatedly postpones a small desired action."
+          ],
+          "contrast": "Unlike avoidance, the limiting factor is energy rather than permission.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.leave",
+          "grammar": {
+            "accepts": [
+              "feeling",
+              "work"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.costume",
+          "text": "has changed costumes, not direction.",
+          "semanticCodes": [
+            "repeat"
+          ],
+          "meaning": "Superficial novelty conceals the same repeated method.",
+          "useWhen": [
+            "The same attempt is repeated and the same unwanted result returns."
+          ],
+          "avoidWhen": [
+            "A changed method is being tested or a useful practice needs time."
+          ],
+          "contrast": "Unlike patience, there is evidence that the method itself needs to change.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.costume",
+          "grammar": {
+            "accepts": [
+              "plan",
+              "authority"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.review",
+          "text": "has declined its daily performance review.",
+          "semanticCodes": [
+            "patience"
+          ],
+          "meaning": "A process still developing is being inspected as if it owes immediate results.",
+          "useWhen": [
+            "There has been a reasonable first action, but too little time for results."
+          ],
+          "avoidWhen": [
+            "There is a persistent failure pattern, urgent danger, or unstarted task."
+          ],
+          "contrast": "Unlike repetition, nothing yet demonstrates that the approach is failing.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.review",
+          "grammar": {
+            "accepts": [
+              "living",
+              "work"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.no",
+          "text": "has been speaking without consulting your no.",
+          "semanticCodes": [
+            "boundary"
+          ],
+          "meaning": "Habitual agreement excludes a legitimate competing boundary.",
+          "useWhen": [
+            "The person overcommits to avoid disappointing others."
+          ],
+          "avoidWhen": [
+            "The person wishes to withdraw from all contact or evade an agreed obligation."
+          ],
+          "contrast": "Unlike isolation, this is about choosing what to carry, not rejecting everyone.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.no",
+          "grammar": {
+            "accepts": [
+              "message",
+              "authority"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.tickets",
+          "text": "has sold you a ticket to your own life.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Imagined observers have claimed ownership of participation in one's own choices.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.tickets",
+          "grammar": {
+            "accepts": [
+              "authority"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.sequel",
+          "text": "does not owe you a sequel.",
+          "semanticCodes": [
+            "loss"
+          ],
+          "meaning": "An ending can have value without being required to continue.",
+          "useWhen": [
+            "The person struggles to leave an ended chapter while retaining its value."
+          ],
+          "avoidWhen": [
+            "The situation remains repairable and no ending has been described."
+          ],
+          "contrast": "Unlike release, this concerns an ending rather than controlling a pending reply.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.sequel",
+          "grammar": {
+            "accepts": [
+              "event",
+              "work"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.close.question",
+          "text": "has arrived before its own subject.",
+          "semanticCodes": [
+            "unclear"
+          ],
+          "meaning": "A request for an answer lacks the underlying needs that would make it meaningful.",
+          "useWhen": [
+            "The person asks which path to choose without explaining what either serves."
+          ],
+          "avoidWhen": [
+            "The question already identifies a clear obstacle or asks for a factual prediction."
+          ],
+          "contrast": "Unlike approval, there is not yet enough stated context to identify the conflict.",
+          "slot": "close",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.close.question",
+          "grammar": {
+            "accepts": [
+              "message",
+              "plan"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.appoint",
+          "text": "has appointed itself",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "An obstacle or imagined authority awards itself power it has not earned.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "appoint",
+          "nextSlots": [
+            "office"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.appoint",
+          "grammar": {
+            "accepts": [
+              "authority",
+              "plan",
+              "message",
+              "feeling"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.permission",
+          "text": "is waiting for permission",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "The selected thing is waiting for approval from an absurd or inappropriate source.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "permission",
+          "nextSlots": [
+            "permission_source"
+          ],
+          "terminal": false,
+          "dedupeGroup": "jester.permission",
+          "grammar": {
+            "accepts": [
+              "work",
+              "plan",
+              "message"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.office.judge",
+          "text": "judge of the first attempt.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "office",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.office.judge",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.office.gate",
+          "text": "keeper of an open gate.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "office",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.office.gate",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.office.everyone",
+          "text": "spokesperson for everyone.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "office",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.office.everyone",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.source.eraser",
+          "text": "from its own eraser.",
+          "semanticCodes": [
+            "perfect"
+          ],
+          "meaning": "Premature judgment or endless polishing prevents a workable thing from being shared.",
+          "useWhen": [
+            "A draft or low-stakes attempt is repeatedly corrected despite being usable."
+          ],
+          "avoidWhen": [
+            "There is a known serious defect, factual error, or safety problem."
+          ],
+          "contrast": "Unlike beginning, work already exists; the obstacle is accepting imperfection.",
+          "slot": "permission_source",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.source.eraser",
+          "grammar": {
+            "accepts": [
+              "work",
+              "message"
+            ],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.source.audience",
+          "text": "from an audience that has not arrived.",
+          "semanticCodes": [
+            "approval"
+          ],
+          "meaning": "Other people's approval has displaced the person's own judgment.",
+          "useWhen": [
+            "A personal preference changes whenever a new opinion is heard."
+          ],
+          "avoidWhen": [
+            "The decision needs expertise or consent from people actually affected."
+          ],
+          "contrast": "Unlike missing evidence, this concerns excess permission-seeking.",
+          "slot": "permission_source",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.source.audience",
+          "grammar": {
+            "accepts": [],
+            "subjectType": null
+          }
+        },
+        {
+          "id": "jester.source.backup",
+          "text": "from its own backup plan.",
+          "semanticCodes": [
+            "begin"
+          ],
+          "meaning": "A reversible beginning is mistaken for a commitment to the entire journey.",
+          "useWhen": [
+            "A desired small action is delayed until the whole future is certain."
+          ],
+          "avoidWhen": [
+            "Starting would be dangerous or irreversible; the person has already begun."
+          ],
+          "contrast": "Unlike perfection, this concerns crossing into action, not polishing its result.",
+          "slot": "permission_source",
+          "nextSlots": [],
+          "terminal": true,
+          "dedupeGroup": "jester.source.backup",
+          "grammar": {
+            "accepts": [
+              "work",
+              "message"
+            ],
+            "subjectType": null
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "character": "oracle",
+    "sourceSHA256": "474d988ebeb17a628488fb6d0625ea8a3377f642c7ed2f21df3cc1a7648ff673",
+    "depthSHA256": "55a15c7c299eeeba6be3a7c79ba045eb00e336460ec16d04d0592dd784d4c53d",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "5 depth tests and 5 flow tests passed; contact screenshots inspected; physical motion pending"
+  },
+  {
+    "character": "stone",
+    "sourceSHA256": "bde3a4afa011088e177a3378b3787fddd0c7a7ccd05730f6b019a85b16df8f55",
+    "depthSHA256": "2d56d876e8e3086122a1d06db88112198e3bb6b128822e623daacee75318a1a1",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "5 depth tests and 5 flow tests passed; contact screenshots inspected; physical motion pending"
+  },
+  {
+    "character": "jester",
+    "sourceSHA256": "cd90ae5a0b434b0ae7a6b600cda9a885f1f24fa70436913fc6787458409f1226",
+    "depthSHA256": "0a1616460868c6bf194065cccf159e319b8d1cebc58cde61645ba7e7be2c39d5",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "5 depth tests and 5 flow tests passed; contact screenshots inspected; physical motion pending"
+  }
+]

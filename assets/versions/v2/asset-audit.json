@@ -1,0 +1,55 @@
+[
+  {
+    "file": "assets/versions/v2/oracle-master.png",
+    "width": 853,
+    "height": 1844,
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1961308,
+    "mode": "RGB",
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/versions/v2/stone-master.png",
+    "width": 853,
+    "height": 1843,
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1837901,
+    "mode": "RGB",
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/versions/v2/jester-master.png",
+    "width": 829,
+    "height": 1897,
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1808150,
+    "mode": "RGB",
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/versions/v2/entrance-closed.png",
+    "width": 853,
+    "height": 1844,
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2196415,
+    "mode": "RGB",
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/versions/v2/entrance-open.png",
+    "width": 853,
+    "height": 1844,
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1961308,
+    "mode": "RGB",
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/versions/v2/fool-master.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2131730
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "character": "jester",
+  "master": "master-v3.png",
+  "canvas": [
+    829,
+    1897
+  ],
+  "depthSize": [
+    518,
+    392
+  ],
+  "sourceSHA256Verified": true,
+  "maxDiagonalContraction": 0.5413717860685134,
+  "threshold": 0.85,
+  "anatomyReview": "a real person wearing mask, two hands, two uncrossed legs and two shoes; visually checked",
+  "deviceMotion": "not verified"
+}

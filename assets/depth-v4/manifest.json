@@ -1,0 +1,53 @@
+[
+  {
+    "character": "oracle",
+    "sourceSHA256": "474d988ebeb17a628488fb6d0625ea8a3377f642c7ed2f21df3cc1a7648ff673",
+    "depthSHA256": "8d7e096790fd75544c62e543383ce6edb2026c2cf5e4948c8d2d05810bc29733",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "7 spatial/domain tests and 6 UI flows passed across V4 runs; final 4-role navigation rerun passed; physical motion pending",
+    "slopeLimit": 0.012,
+    "projectionPasses": 320
+  },
+  {
+    "character": "stone",
+    "sourceSHA256": "bde3a4afa011088e177a3378b3787fddd0c7a7ccd05730f6b019a85b16df8f55",
+    "depthSHA256": "fc88c136fc4f697e6b1709ae743617bd69e9be0a503fb2795aee0fdc67ae1601",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "7 spatial/domain tests and 6 UI flows passed across V4 runs; final 4-role navigation rerun passed; physical motion pending",
+    "slopeLimit": 0.012,
+    "projectionPasses": 320
+  },
+  {
+    "character": "jester",
+    "sourceSHA256": "cd90ae5a0b434b0ae7a6b600cda9a885f1f24fa70436913fc6787458409f1226",
+    "depthSHA256": "cfb82cb89f8a19a7b38e11e633fc031b3bdd14d5ac11f1dfc41fbe3b275819dc",
+    "model": "apple/coreml-depth-anything-v2-small",
+    "revision": "cfef6f6f2a70783dedc0bfae40cecbc2052285d3",
+    "variant": "DepthAnythingV2SmallF16",
+    "license": "Apache-2.0",
+    "depthDimensions": [
+      518,
+      392
+    ],
+    "method": "complete RGB + continuous inverse depth reprojection; no independent planes",
+    "verification": "7 spatial/domain tests and 6 UI flows passed across V4 runs; final 4-role navigation rerun passed; physical motion pending",
+    "slopeLimit": 0.012,
+    "projectionPasses": 320
+  }
+]

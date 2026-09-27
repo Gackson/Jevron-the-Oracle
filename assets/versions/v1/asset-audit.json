@@ -1,0 +1,223 @@
+[
+  {
+    "file": "assets/review/layers-v1/jester-background.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1731483,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/jester-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1313772,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      37,
+      833,
+      1818
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/oracle-background.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2135230,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/oracle-foreground.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 593209,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      0,
+      836,
+      1824
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/oracle-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1721286,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      33,
+      37,
+      853,
+      1758
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/stone-background.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2255441,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v1/stone-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1018010,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      146,
+      319,
+      837,
+      1539
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v2/jester-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1280393,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      25,
+      37,
+      830,
+      1756
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v2/oracle-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 996987,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      35,
+      71,
+      853,
+      1724
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "assets/review/layers-v2/stone-subject.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 887085,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaBBox": [
+      51,
+      105,
+      690,
+      1201
+    ],
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "ios/JEV/Resources/Media/entrance-closed.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2420636,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "ios/JEV/Resources/Media/entrance-open.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2282232,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "ios/JEV/Resources/Media/jester-master.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 1785707,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "ios/JEV/Resources/Media/oracle-master.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2282232,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  },
+  {
+    "file": "ios/JEV/Resources/Media/stone-master.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGB",
+    "profile": "sRGB IEC61966-2.1",
+    "bytes": 2234575,
+    "alphaRange": null,
+    "alphaBBox": null,
+    "pixelsUnchangedByProfileTag": true
+  }
+]

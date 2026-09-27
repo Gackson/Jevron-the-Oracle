@@ -1,0 +1,9 @@
+First frame: entrance-closed.png
+Last frame: entrance-open.png
+Target: 3–4 seconds, portrait, 30 fps, H.264 MP4, no audio.
+Input images: 853×1844. Use consistent padding if encoder requires even dimensions; do not independently crop frames.
+
+Create a single continuous 3–4 second shot between the supplied first and last frames. The camera is completely locked: no zoom, dolly, pan, roll, reframing or focus hunting.
+Starting with the closed beaded curtain, the strands gently separate from the center and gather to both sides, revealing the quiet room and seated Oracle behind them. Beads stay threaded and preserve their size and material. Each strand moves with a restrained, physically plausible sway and gradually settles.
+The room, woman, chair, table and plate remain stationary and geometrically consistent. Preserve facial identity, body proportions, illumination and exposure. No lip movement, gestures, particles, hands opening the curtain, new objects, light flashes or morphing.
+Begin exactly on the supplied closed-curtain frame. End exactly on the supplied open-curtain frame, holding the final composition still for the last 0.3–0.5 seconds. No cuts, looping or reverse motion. No audio, captions or watermark.

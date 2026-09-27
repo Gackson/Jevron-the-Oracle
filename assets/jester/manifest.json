@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "characterId": "jester",
+  "canvas": {
+    "width": 829,
+    "height": 1897
+  },
+  "layers": [
+    {
+      "id": "background",
+      "file": "master-v3.png",
+      "depth": 0.15
+    }
+  ],
+  "motion": {
+    "maxTiltDegrees": 10,
+    "maxOffsetPoints": 12,
+    "overscanScale": 1.12
+  },
+  "sourceStatus": "flat_fallback"
+}

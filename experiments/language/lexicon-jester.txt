@@ -1,0 +1,155 @@
+[image]
+fear|An imagined danger acting as an overqualified guard; not evidence of real danger.
+doubt|An uncertainty that may seek excessive authority; sometimes a useful question.
+plan|A proposed route that may replace taking any actual steps.
+relationship|A connection between people; its health depends on their actual experience, not an omen.
+draft|Unfinished work needing room to exist before judgment.
+eraser|Correction that can consume the very creation it is meant to improve.
+critic|Judgment personified; can examine its own qualifications.
+judge|Authority that may have appointed itself without a hearing.
+audience|The imagined spectators to whom personal decisions are performed.
+applause|External approval; a poor substitute for an actual preference.
+permission|Authorization; distinguish needless approval from another person's necessary consent.
+consent|Permission actually owed to an affected person; never portray it as needless hesitation.
+warning|An evidenced risk asking for attention, not cowardice to mock.
+danger|A concrete threat: use a direct, caring tone rather than a joke.
+help|Practical support; appropriate for serious danger or being overwhelmed.
+safety|Protection from actual harm, not an excuse to invent reassuring predictions.
+silence|No answer yet; cannot fairly be forced to testify about another person's feelings.
+reply|A response belonging to the other person, not something demand can guarantee.
+question|A request that may smuggle in an assumption or omit its real subject.
+answer|A reply; can be made absurdly bureaucratic without pretending certainty.
+future|Not known; do not claim its dates or guaranteed outcomes.
+calendar|Time pretending to have booked events that have not happened.
+clock|Time pressure, impatience, or borrowed schedules.
+partner|The other person in a relationship, with their own needs and choices.
+love|Affection and care; distinguish it from habit, fear or obligation without assuming which the user feels.
+committee|Too many inner or outer opinions replacing a decision.
+meeting|Coordination that can become a substitute for doing anything.
+reason|The concrete reason behind a decision; ask for it when the question omits context.
+throne|Disproportionate authority granted to a small obstacle.
+habit|A repeated pattern; it is not proof of love or a reason to stay by itself.
+fool|Playful outsider who can question convention; do not insult the user.
+mask|Performance, hidden preference, or a role mistaken for identity.
+costume|A superficial change hiding an unchanged pattern.
+stage|The place where daily life becomes an unnecessary performance.
+choice|A decision belonging to the user; do not decide a relationship from one unexplained sentence.
+ticket|Permission to participate; can expose charging admission to one's own life.
+price|A tradeoff or hidden cost, not a forecast of market prices.
+cost|What a decision asks someone to give up; not a numerical prediction.
+contract|Commitment or a promise mistaken for unlimited obligation.
+hurt|Pain or damage in a relationship; take actual harm seriously.
+lawyer|An inner excuse defending itself instead of examining the situation.
+witness|Evidence rather than imagined certainty.
+excuse|A reason that protects avoidance; do not apply to real risk or depleted capacity.
+alibi|An elaborate reason for not being where one's action is needed.
+trap|Protection that has become confinement.
+cage|A restriction maintained by habit or imagined judgment.
+key|A possible way out, which can be possessed but unused.
+lock|A barrier; may be self-maintained but do not assume every barrier is imaginary.
+door|Access, beginning, or a boundary.
+gate|Permission or passage, often guarded by a self-appointed official.
+window|An alternate perspective or room for contact.
+respect|Consideration for another person and oneself, without demanding unlimited sacrifice.
+map|Planning and borrowed directions, distinct from making a journey.
+road|A chosen course with tradeoffs.
+compass|Personal direction rather than spectators' approval.
+mirror|Self-image or reliance on other people's gaze.
+honesty|Speaking plainly about what is happening and what one wants.
+feeling|An emotional experience worth naming; do not claim to know hidden feelings.
+conversation|An exchange that can reveal context missing from a yes-or-no question.
+trick|An assumption disguising itself as logic; not actual instructions to deceive.
+obligation|A duty or felt pressure; distinguish it from freely chosen affection, without assuming either is present.
+work|Effort or a creation; distinguish polishing from repairing.
+rest|Recovery, not a moral failure.
+leave|Time off; also the action of departing.
+energy|Finite capacity, not a claim about supernatural forces.
+weight|A responsibility or opinion being carried.
+promise|A chosen commitment, not permission to predict events.
+yes|Agreement that may crowd out an honest limit.
+no|A boundary with equal standing beside yes.
+life|Participation in one's own ordinary choices.
+ending|Something completed; it does not owe a sequel.
+stay|Remain by choice; never imply an obligation to remain in danger.
+story|A meaningful narrative, not a substitute for evidence or consent.
+secret|Privacy; respect the person whose experience it is.
+truth|What can be supported, sometimes obscured by performance.
+hope|A desired possibility, not guaranteed fact.
+error|An observable fault to address, not simply fear to ridicule.
+[verb]
+hires|Employs a personified obstacle or authority for an absurdly mismatched role.
+wears
+owns
+sells
+buys
+asks
+waits
+knows
+thinks
+calls
+keeps
+holds
+opens
+closes
+hides
+choose|Make a choice while owning its reasons and consequences.
+trust|Rely on evidence and consistency, not a guessed hidden motive.
+want|Desire something; distinguish genuine preference from borrowed expectations.
+signs
+need|Require something important for wellbeing or a meaningful choice.
+appoints
+refuses
+returns
+changes
+needs
+wants
+looks
+makes
+takes
+gives
+learns
+laughs
+stop
+start
+try
+ask
+wait
+know
+keep
+let
+look
+make
+take
+give
+seek
+step
+share
+repair
+[quality]
+small
+empty
+honest|Plain and truthful, without pretending to know what has not been shared.
+open
+closed
+new
+old
+real
+unhappy|Dissatisfied or distressed; a possibility to explore, not a diagnosis.
+perfect
+unfinished
+own
+same
+different
+quiet
+ready
+safe
+free
+serious
+[chunk]
+itself
+[verb]
+hired
+feel|Experience an emotion; ask rather than invent the feeling.
+say
+says
+mean

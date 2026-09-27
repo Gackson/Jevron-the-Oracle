@@ -1,0 +1,9 @@
+Create a single continuous 4-second cinematic entrance shot using the supplied first and last frames.
+First frame: camera outside a closed beaded doorway, focus on nearby beads. The room and seated woman behind are strongly out of focus; her face must not be readable.
+0.0–0.5s: hold the quiet closed-curtain view briefly.
+0.5–1.7s: bead strands separate gently from the center, gathering to both sides, with restrained physically plausible threaded sway.
+1.0–3.5s: the camera smoothly and slowly DOLLIES FORWARD through the opened doorway toward the woman. Real perspective and scale change are intentional; this is not a locked camera or a simple digital zoom. Keep the room's spatial logic coherent. Smoothly rack focus from the near beads to the Oracle's face as we approach; no focus hunting.
+3.5–4.0s: settle naturally on the supplied closer Oracle last frame and hold it stable. Near peripheral beads become defocused, the woman becomes readable, the kitchen behind remains softly defocused.
+Preserve the same woman's identity, seated hand-to-cheek pose, plain moss dress, plain sage apron and tablecloth, cookies and cup. The woman stays still: no lip movement, gestures or change of expression. Furniture remains stationary in world space; screen position changes from camera motion are expected. No hands pulling the curtain.
+Muted olive/celadon green room, forest/cyan-green shadows, naturally warm skin, small amber practical accent. Retro 35mm lens softness and subtle grain, restrained highlights, no overall yellow wash or sharpened floral/stone detail.
+Single shot, no cuts, morphing, flashes, particles, captions, watermark, looping or reverse motion. No audio. Output portrait H.264 MP4, 30 fps. Start and end on the provided compositions; use one consistent output framing for both endpoints.

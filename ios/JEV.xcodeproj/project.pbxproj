@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CE03EA75E1E0ACAEEA043F /* SpeechInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C04CAD0FA583E63646178 /* SpeechInput.swift */; };
+		07B0EA4CD7DF07D392A6A2C3 /* SpatialArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B633D1BCDC4CE735F0D7499 /* SpatialArtwork.swift */; };
+		08569A22F95E4A739AF4E6D3 /* ReadingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7AA6FB1DE6434F6409EB2 /* ReadingAPITests.swift */; };
+		193A27734591296D45D2B862 /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DA5F171B2DD78AF689187 /* FlowTests.swift */; };
+		2371EF6D50166BE375B18E32 /* DreamLens.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2582CEF8325AE8C9EB3AC12E /* DreamLens.metal */; };
+		2CE076D40A9A7A15064A2765 /* ConversationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */; };
+		3B6ECCB645B768B3159050C9 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7538628F32D91DA3AE7C6 /* ConversationView.swift */; };
+		5CF4EA51A431E27BBAC166FD /* OracleIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 75F207AAF67E516B6D276F8F /* OracleIcon.icon */; };
+		7A0AF4FAB9B4307A9BEBE589 /* KeySettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8502FB360E71A91AEDFCCC0 /* KeySettingsTests.swift */; };
+		7C432E7FCA3F69018B4687C0 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8B6F112971DDA9B7F1FA0 /* BrandAssets.xcassets */; };
+		7C4EAA9DFBDA65CA40933883 /* SpatialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA94710C4D15248E2C6A9B4 /* SpatialTests.swift */; };
+		8185142DF9B86C3DADD6BD88 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = F9E0F9E6BA0B3E98E61DEC77 /* Media */; };
+		962E21ADD0CE6DAE7657AC42 /* OracleBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A17BF5FB5C29B9BD07E7AC /* OracleBrand.swift */; };
+		9749E0CAC8939BF9368F8A3A /* JEVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C6D66FF54572A6B2CDB815 /* JEVApp.swift */; };
+		991EAE7D3E71443E33E607D1 /* WordReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A3DCF67C1C8EE13EA9DBD /* WordReveal.swift */; };
+		B7657873B739E9899A58B3D8 /* DirectJEVClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49420DBE81ACD7C452BDD4B /* DirectJEVClient.swift */; };
+		B8713E13640E5E306BFD5AD7 /* DirectJEVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2734A4E795618D1906C530 /* DirectJEVTests.swift */; };
+		C15627760B971DCDEA0E6690 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554DD1D1BE9C3E4F97819BB /* SceneView.swift */; };
+		DF032C9B6D51E1A37FCD00CE /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF1C979D85829D0851F9D5 /* EntranceView.swift */; };
+		EC6AC02A828900F531E2214B /* SpatialPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A83FD5258F5367E04406CF /* SpatialPreview.swift */; };
+		EDC27555BD91C5F60E203A9C /* Language in Resources */ = {isa = PBXBuildFile; fileRef = C29C11757CE26C4B9F5C208A /* Language */; };
+		EFC6A5EAB9E455D3BCD9181F /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05910445E816360EA087F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 384CD0B0EAB591554FE0A8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E1C90B2F7451C66AE8AB1;
+			remoteInfo = JEV;
+		};
+		E7D10BA8AF567B09448EA952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 384CD0B0EAB591554FE0A8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E1C90B2F7451C66AE8AB1;
+			remoteInfo = JEV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2552529F8146A2ADF35BBD3E /* JEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2582CEF8325AE8C9EB3AC12E /* DreamLens.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = DreamLens.metal; sourceTree = "<group>"; };
+		29C6D66FF54572A6B2CDB815 /* JEVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEVApp.swift; sourceTree = "<group>"; };
+		40A17BF5FB5C29B9BD07E7AC /* OracleBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleBrand.swift; sourceTree = "<group>"; };
+		4554DD1D1BE9C3E4F97819BB /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		6B4C04CAD0FA583E63646178 /* SpeechInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechInput.swift; sourceTree = "<group>"; };
+		6B633D1BCDC4CE735F0D7499 /* SpatialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialArtwork.swift; sourceTree = "<group>"; };
+		734A3DCF67C1C8EE13EA9DBD /* WordReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordReveal.swift; sourceTree = "<group>"; };
+		75F207AAF67E516B6D276F8F /* OracleIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = OracleIcon.icon; sourceTree = "<group>"; };
+		86A83FD5258F5367E04406CF /* SpatialPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialPreview.swift; sourceTree = "<group>"; };
+		8FC7538628F32D91DA3AE7C6 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		93EF1C979D85829D0851F9D5 /* EntranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
+		9BB8B6F112971DDA9B7F1FA0 /* BrandAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BrandAssets.xcassets; sourceTree = "<group>"; };
+		A21DA5F171B2DD78AF689187 /* FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowTests.swift; sourceTree = "<group>"; };
+		A81A763307854DA62F38349A /* JEVTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JEVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA94710C4D15248E2C6A9B4 /* SpatialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialTests.swift; sourceTree = "<group>"; };
+		C29C11757CE26C4B9F5C208A /* Language */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Language; path = JEV/Resources/Language; sourceTree = SOURCE_ROOT; };
+		C8502FB360E71A91AEDFCCC0 /* KeySettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySettingsTests.swift; sourceTree = "<group>"; };
+		CFE7AA6FB1DE6434F6409EB2 /* ReadingAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingAPITests.swift; sourceTree = "<group>"; };
+		D45AD78B254E5797C5C12972 /* JEVUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JEVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49420DBE81ACD7C452BDD4B /* DirectJEVClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectJEVClient.swift; sourceTree = "<group>"; };
+		DA2734A4E795618D1906C530 /* DirectJEVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectJEVTests.swift; sourceTree = "<group>"; };
+		F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTests.swift; sourceTree = "<group>"; };
+		F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		F9E0F9E6BA0B3E98E61DEC77 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Media; path = JEV/Resources/Media; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E93D9997B2D53089962B8F5 /* JEVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21DA5F171B2DD78AF689187 /* FlowTests.swift */,
+				C8502FB360E71A91AEDFCCC0 /* KeySettingsTests.swift */,
+			);
+			path = JEVUITests;
+			sourceTree = "<group>";
+		};
+		5FFB18916EFF97902230AED8 = {
+			isa = PBXGroup;
+			children = (
+				C29C11757CE26C4B9F5C208A /* Language */,
+				F9E0F9E6BA0B3E98E61DEC77 /* Media */,
+				7AF24D66B47036937225AE5A /* JEV */,
+				B22C5AC70AC043FDBD005160 /* JEVTests */,
+				3E93D9997B2D53089962B8F5 /* JEVUITests */,
+				9780881FDC482F270396E5C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF24D66B47036937225AE5A /* JEV */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8B6F112971DDA9B7F1FA0 /* BrandAssets.xcassets */,
+				8FC7538628F32D91DA3AE7C6 /* ConversationView.swift */,
+				D49420DBE81ACD7C452BDD4B /* DirectJEVClient.swift */,
+				F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */,
+				2582CEF8325AE8C9EB3AC12E /* DreamLens.metal */,
+				93EF1C979D85829D0851F9D5 /* EntranceView.swift */,
+				29C6D66FF54572A6B2CDB815 /* JEVApp.swift */,
+				40A17BF5FB5C29B9BD07E7AC /* OracleBrand.swift */,
+				75F207AAF67E516B6D276F8F /* OracleIcon.icon */,
+				4554DD1D1BE9C3E4F97819BB /* SceneView.swift */,
+				6B633D1BCDC4CE735F0D7499 /* SpatialArtwork.swift */,
+				86A83FD5258F5367E04406CF /* SpatialPreview.swift */,
+				6B4C04CAD0FA583E63646178 /* SpeechInput.swift */,
+				734A3DCF67C1C8EE13EA9DBD /* WordReveal.swift */,
+			);
+			path = JEV;
+			sourceTree = "<group>";
+		};
+		9780881FDC482F270396E5C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2552529F8146A2ADF35BBD3E /* JEV.app */,
+				A81A763307854DA62F38349A /* JEVTests.xctest */,
+				D45AD78B254E5797C5C12972 /* JEVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22C5AC70AC043FDBD005160 /* JEVTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */,
+				DA2734A4E795618D1906C530 /* DirectJEVTests.swift */,
+				CFE7AA6FB1DE6434F6409EB2 /* ReadingAPITests.swift */,
+				ABA94710C4D15248E2C6A9B4 /* SpatialTests.swift */,
+			);
+			path = JEVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77EFB8A6CD3F10004E459E32 /* JEVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BE18BEB712EDD75252BC2A /* Build configuration list for PBXNativeTarget "JEVUITests" */;
+			buildPhases = (
+				7AABE5F14AAF6EB492F9CC2A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956EB7C6351E6AF25F2D7321 /* PBXTargetDependency */,
+			);
+			name = JEVUITests;
+			packageProductDependencies = (
+			);
+			productName = JEVUITests;
+			productReference = D45AD78B254E5797C5C12972 /* JEVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9B0AD3CD0A939C4C5F0CB411 /* JEVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE984FF3C6096D960AD02852 /* Build configuration list for PBXNativeTarget "JEVTests" */;
+			buildPhases = (
+				AA1115E4D531729BEB22D64C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				996BF21C7292F3736AEB85A7 /* PBXTargetDependency */,
+			);
+			name = JEVTests;
+			packageProductDependencies = (
+			);
+			productName = JEVTests;
+			productReference = A81A763307854DA62F38349A /* JEVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7E1C90B2F7451C66AE8AB1 /* JEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F6CF22BBE2FD3D3A7C027A /* Build configuration list for PBXNativeTarget "JEV" */;
+			buildPhases = (
+				BF0B80D91B98ADD207FD0879 /* Sources */,
+				6D8817E40D23B053B109B5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JEV;
+			packageProductDependencies = (
+			);
+			productName = JEV;
+			productReference = 2552529F8146A2ADF35BBD3E /* JEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		384CD0B0EAB591554FE0A8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					77EFB8A6CD3F10004E459E32 = {
+						TestTargetID = AA7E1C90B2F7451C66AE8AB1;
+					};
+					AA7E1C90B2F7451C66AE8AB1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F1886AD55B6D15645131387 /* Build configuration list for PBXProject "JEV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5FFB18916EFF97902230AED8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9780881FDC482F270396E5C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7E1C90B2F7451C66AE8AB1 /* JEV */,
+				9B0AD3CD0A939C4C5F0CB411 /* JEVTests */,
+				77EFB8A6CD3F10004E459E32 /* JEVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8817E40D23B053B109B5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C432E7FCA3F69018B4687C0 /* BrandAssets.xcassets in Resources */,
+				EDC27555BD91C5F60E203A9C /* Language in Resources */,
+				8185142DF9B86C3DADD6BD88 /* Media in Resources */,
+				5CF4EA51A431E27BBAC166FD /* OracleIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AABE5F14AAF6EB492F9CC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193A27734591296D45D2B862 /* FlowTests.swift in Sources */,
+				7A0AF4FAB9B4307A9BEBE589 /* KeySettingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1115E4D531729BEB22D64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE076D40A9A7A15064A2765 /* ConversationTests.swift in Sources */,
+				B8713E13640E5E306BFD5AD7 /* DirectJEVTests.swift in Sources */,
+				08569A22F95E4A739AF4E6D3 /* ReadingAPITests.swift in Sources */,
+				7C4EAA9DFBDA65CA40933883 /* SpatialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0B80D91B98ADD207FD0879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6ECCB645B768B3159050C9 /* ConversationView.swift in Sources */,
+				B7657873B739E9899A58B3D8 /* DirectJEVClient.swift in Sources */,
+				EFC6A5EAB9E455D3BCD9181F /* Domain.swift in Sources */,
+				2371EF6D50166BE375B18E32 /* DreamLens.metal in Sources */,
+				DF032C9B6D51E1A37FCD00CE /* EntranceView.swift in Sources */,
+				9749E0CAC8939BF9368F8A3A /* JEVApp.swift in Sources */,
+				962E21ADD0CE6DAE7657AC42 /* OracleBrand.swift in Sources */,
+				C15627760B971DCDEA0E6690 /* SceneView.swift in Sources */,
+				07B0EA4CD7DF07D392A6A2C3 /* SpatialArtwork.swift in Sources */,
+				EC6AC02A828900F531E2214B /* SpatialPreview.swift in Sources */,
+				04CE03EA75E1E0ACAEEA043F /* SpeechInput.swift in Sources */,
+				991EAE7D3E71443E33E607D1 /* WordReveal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		956EB7C6351E6AF25F2D7321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E1C90B2F7451C66AE8AB1 /* JEV */;
+			targetProxy = E7D10BA8AF567B09448EA952 /* PBXContainerItemProxy */;
+		};
+		996BF21C7292F3736AEB85A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E1C90B2F7451C66AE8AB1 /* JEV */;
+			targetProxy = A05910445E816360EA087F00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0850C55C00B0B762D43CB6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A903D3428FD142E4B1E55D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = OracleIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8S3VVCGHQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jevons the Oracle";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turn your spoken question into text for you to review before sending.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcribe your question so you can review and edit it before sending.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.oracle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4696E97594178C0508D3253E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.JEVTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEV.app/JEV";
+			};
+			name = Release;
+		};
+		5192AEFBC776F770F7907177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.JEVUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JEV;
+			};
+			name = Release;
+		};
+		6228F371845A49742472A1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.JEVUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JEV;
+			};
+			name = Debug;
+		};
+		CFA2672A4CB8BAD31E633014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.JEVTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEV.app/JEV";
+			};
+			name = Debug;
+		};
+		DBE83D352B59A06B986068AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = OracleIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8S3VVCGHQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jevons the Oracle";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turn your spoken question into text for you to review before sending.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcribe your question so you can review and edit it before sending.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jev.oracle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7F815E9373953AC69430E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F6CF22BBE2FD3D3A7C027A /* Build configuration list for PBXNativeTarget "JEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE83D352B59A06B986068AF /* Debug */,
+				3A903D3428FD142E4B1E55D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32BE18BEB712EDD75252BC2A /* Build configuration list for PBXNativeTarget "JEVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6228F371845A49742472A1D7 /* Debug */,
+				5192AEFBC776F770F7907177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F1886AD55B6D15645131387 /* Build configuration list for PBXProject "JEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0850C55C00B0B762D43CB6B7 /* Debug */,
+				F7F815E9373953AC69430E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE984FF3C6096D960AD02852 /* Build configuration list for PBXNativeTarget "JEVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA2672A4CB8BAD31E633014 /* Debug */,
+				4696E97594178C0508D3253E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 384CD0B0EAB591554FE0A8D3 /* Project object */;
+}

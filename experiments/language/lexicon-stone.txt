@@ -1,0 +1,156 @@
+[image]
+stone|A durable presence holding traces without explaining them.
+mountain
+river|A changing process that cannot be held still by force.
+water|Flow, capacity, or a changed condition; maintain the physical scene.
+tide|A cycle larger than a single act of control.
+sea
+shore|A boundary that permits contact without losing all shape.
+basin|Finite capacity; an empty source cannot continue giving.
+well
+ice
+mist|Incomplete information; do not invent what lies beyond it.
+sky
+wind
+storm
+light
+shadow
+night
+dawn
+day
+soil
+seed|A begun process needing time, distinct from never beginning.
+root
+ash
+fire
+smoke|A possible concrete warning; do not turn immediate danger into a harmless metaphor.
+ember
+sand
+dust
+clay
+iron
+weight|A burden, commitment, or opinion carried beyond one's capacity.
+pressure|Force applied to a thing or relationship; can expose a weakness.
+tension
+rope|A connection tightened by attempts to control its other end.
+knot
+thread
+seam|A visible trace of making; imperfection can remain without invalidating work.
+surface
+edge|A necessary limit preserving shape or capacity.
+crack|A real weakness deserving repair, not imagined embarrassment.
+fracture
+bridge
+door
+threshold|A boundary before beginning, not a promise about the whole future.
+path
+footprint
+step
+crossing
+circle
+orbit|Movement repeating around an unchanged center; motion without progress.
+center
+distance
+horizon
+north
+mirror|An outside gaze that cannot determine one's own direction.
+reflection
+sound
+voice
+silence
+echo|A response requires a first sound; an unspoken wish cannot be heard.
+word
+name
+mark
+trace
+memory
+absence
+return
+ending
+beginning
+season
+time
+change
+shape
+space
+room
+hand
+breath
+rest
+shelter
+warning
+danger
+help
+safety
+truth
+future
+question
+answer
+[verb]
+abideth|Archaic third-person singular of abide: remains or endures quietly.
+moves
+waits
+holds
+bears
+beareth|Archaic third-person singular of bear: carries a burden or trace.
+crosses
+opens
+closes
+breaks
+bends
+settles
+falls
+rises
+flows
+returns
+changes
+waxeth|Archaic third-person singular of wax: grows or increases.
+wears
+waneth|Archaic third-person singular of wane: diminishes gradually.
+keeps
+needs
+leaves
+finds
+reaches
+turns
+doth|Archaic third-person singular of do; followed by an uninflected verb.
+speaketh|Archaic third-person singular of speak.
+knoweth|Archaic third-person singular of know; never claim hidden knowledge.
+stop
+wait
+listen
+seek
+step
+leave
+hold
+let
+look
+know
+begin
+[quality]
+first
+small
+old
+new
+open
+closed
+empty
+full
+still
+silent
+rough
+broken
+heavy
+light
+slow
+deep
+unseen
+real
+safe
+same
+[verb]
+move
+carry
+change
+remain
+hath|Archaic third-person singular of have; followed by a noun phrase.

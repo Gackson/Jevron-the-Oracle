@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "characterId": "fool",
+  "canvas": {
+    "width": 853,
+    "height": 1844
+  },
+  "layers": [
+    {
+      "id": "background",
+      "file": "master-v3.png",
+      "depth": 0.15
+    }
+  ],
+  "motion": {
+    "maxTiltDegrees": 10,
+    "maxOffsetPoints": 12,
+    "overscanScale": 1.12
+  },
+  "sourceStatus": "flat_fallback"
+}
