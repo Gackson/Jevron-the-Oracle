@@ -12,10 +12,10 @@ iOS 原生体验 · 四位角色 · 中英文回答 · 有限语言实验
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="ios/JEV/Resources/Media/oracle-master.png" alt="The Oracle：暖光厨房中坐在饼干桌旁的先知" width="220" /><br /><strong>The Oracle</strong><br />一句话，留下余地。</td>
-    <td align="center" width="25%"><img src="ios/JEV/Resources/Media/stone-master.png" alt="The Stela：冷光石厅中沉默的黑色石碑" width="220" /><br /><strong>The Stela</strong><br />让问题成为一段铭文。</td>
-    <td align="center" width="25%"><img src="ios/JEV/Resources/Media/jester-master.png" alt="The Jester：红色幕布旁戴着面具的弄臣" width="220" /><br /><strong>The Jester</strong><br />给确信一个意外的转身。</td>
-    <td align="center" width="25%"><img src="ios/JEV/Resources/Media/fool-master.png" alt="The Fool：戴纸冠、拿雏菊、神情天真的愚者" width="220" /><br /><strong>The Fool</strong><br />让日常稍微不合常理。</td>
+    <td align="center" width="25%"><img src="docs/media/oracle-screenshot.png" alt="The Oracle 对话截图：A small beginning leaves room to change your mind." width="220" /><br /><strong>The Oracle</strong><br />一句话，留下余地。</td>
+    <td align="center" width="25%"><img src="docs/media/stela-screenshot.png" alt="The Stela 对话截图：Weight beareth you. Both must change." width="220" /><br /><strong>The Stela</strong><br />让问题成为一段铭文。</td>
+    <td align="center" width="25%"><img src="docs/media/jester-screenshot.png" alt="The Jester 对话截图：You choose the price between love and weight." width="220" /><br /><strong>The Jester</strong><br />给确信一个意外的转身。</td>
+    <td align="center" width="25%"><img src="docs/media/fool-screenshot.png" alt="The Fool 对话截图：I should seek help from a potato." width="220" /><br /><strong>The Fool</strong><br />让日常稍微不合常理。</td>
   </tr>
 </table>
 
