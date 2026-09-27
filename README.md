@@ -19,6 +19,16 @@ iOS 原生体验 · 四位角色 · 中英文回答 · 有限语言实验
   </tr>
 </table>
 
+## 视频演示
+
+<p align="center">
+  <a href="docs/media/demo.mp4">
+    <img src="docs/media/demo-preview.gif" alt="Jevons the Oracle 演示片段，点击打开完整视频" width="280" />
+  </a>
+</p>
+
+<p align="center"><strong><a href="docs/media/demo.mp4">打开完整 Demo · 4 分 23 秒</a></strong><br /><sub>上方为前 12 秒动态预览。完整 MP4 保留原始分辨率，约 9.6 MB。</sub></p>
+
 ## 起点：如果 AI 只能说很少的话
 
 有些问题，我们已经想过很多遍：为什么迟迟不敢开始？为什么总想得到别人的允许？一段关系结束以后，还剩下什么？
