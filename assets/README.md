@@ -1,5 +1,17 @@
 # JEV 素材交付 · V2
 
+## 素材目录
+
+- `audio/`：原始 WAV 音效。`Cymatics - ACCENT Amore - 117 BPM F Maj.wav` 用于入场配乐；`Cymatics - Light Impact (Resonant Body).wav` 保留为备选素材，尚未接入。
+- [video/entrance.mov](video/entrance.mov)：用户提供的原始入场视频。
+- [entrance-video-inputs/](entrance-video-inputs/)：生成入场视频的首尾帧与提示词。
+- `oracle/`、`stone/`、`jester/`、`fool/`：角色原图、版本与生成记录；`depth-v3/`、`depth-v4/`：深度数据。
+- `brand/`：品牌素材；`versions/`、`review/`：历史版本与评审素材。
+
+iOS 打包资源位于 [ios/JEV/Resources/Media/](../ios/JEV/Resources/Media/)。在仓库根目录运行 `swift ios/Tools/compose-entrance-audio.swift`，可从 `audio/` 和 `video/` 中的原始素材重新合成带音效的入场视频。
+
+## 交付记录
+
 Jester 最新修订：改为佩戴面具的真人，使用 [master-v3.png](jester/master-v3.png) 及匹配深度。旧版独立面具保留在角色目录；画廊的新版入口显示真人版。[提示词与验收](jester/README.md)。
 
 最新补充：The Fool 已加入，当前使用 [master-v3.png](fool/master-v3.png)，保留夸张表情并修正双腿。运行时图片和匹配的连续深度文件均已接入。提示词见 [角色记录](fool/README.md)，数值验证见 [validation.json](fool/validation.json)。画廊支持初稿与当前版本对比。以下为此前三角色阶段的历史说明。
@@ -36,4 +48,4 @@ V2 双层移动会破坏人物/椅子、碑底/地面和面具/支架接触关�
 
 ## Current spatial tuning (V4)
 
-`depth-v4/` contains stronger-motion continuous fields, with the original RGB unchanged. The supplied root `entrance.mov` is bundled unchanged. See `docs/SPATIAL-V4.md` and `ios/Verification/depth-v4/`. V3 depth remains archived.
+`depth-v4/` contains stronger-motion continuous fields, with the original RGB unchanged. The supplied [video/entrance.mov](video/entrance.mov) is bundled unchanged. See [docs/SPATIAL-V4.md](../docs/SPATIAL-V4.md) and [ios/Verification/depth-v4/](../ios/Verification/depth-v4/). V3 depth remains archived.

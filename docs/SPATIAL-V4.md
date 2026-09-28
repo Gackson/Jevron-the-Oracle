@@ -15,7 +15,7 @@
 
 ## 入口视频
 
-根目录 `entrance.mov` 原样打包到 `ios/JEV/Resources/Media/`，720×1280、30fps、5.0667秒。静音播放；实际播放完成通知触发 650ms 叠化，保留最后一帧直到 The Oracle 完全显现。取消原入口的模糊替代动画。
+原始视频 `assets/video/entrance.mov` 原样打包到 `ios/JEV/Resources/Media/`，720×1280、30fps、5.0667秒。静音播放；实际播放完成通知触发 650ms 叠化，保留最后一帧直到 The Oracle 完全显现。取消原入口的模糊替代动画。
 
 视频、静态入口与目标场景都使用全屏 GeometryReader 的确定尺寸。播放器预先挂载，第一帧可显示后再显现，避免黑色初始帧；播放期间可以 Skip。后台暂停、回前台续播；Reduce Motion 直接进入。10秒保护仅处理无法显示首帧，不截断正常播放的视频。
 

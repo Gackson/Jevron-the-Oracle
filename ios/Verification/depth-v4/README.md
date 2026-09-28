@@ -6,7 +6,7 @@
 - Six UI flow tests passed across the smoke and remaining-flow runs: actual entrance video completion, circular swipes in both directions, history with stable composer position, keyboard/multiline input, large text, cold launch, and nine extreme-pose captures. The video/circular-swipe flow was rerun after the fourth character was added and passed.
 - Final entrance was recorded after hiding the closed still during video playback. Inspected the final-frame dissolve at 42.1 / 42.5 / 42.9 seconds of the full recording: no closed-curtain flash, frozen top strip or uncovered top safe area. Fading entrance no longer intercepts taps.
 - Character-transition frames show blur and image blending advancing together, with explicit full-screen image bounds. No independently sliding cutouts.
-- Root entrance.mov and bundled copy share SHA256 c22110a950f819591922eabcb121c643fc663e8bccf27c4e1c8bee22dab35dbf.
+- Source `assets/video/entrance.mov` and bundled copy share SHA256 c22110a950f819591922eabcb121c643fc663e8bccf27c4e1c8bee22dab35dbf.
 
 [Entrance video and dissolve](entrance.mov) · [Simultaneous character dissolve](character-switch.mov)
 

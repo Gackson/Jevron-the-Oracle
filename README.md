@@ -173,7 +173,7 @@ open JEV.xcodeproj
 | [DirectJEVClient.swift](ios/JEV/DirectJEVClient.swift) | TypeSafe 直连、密钥管理、响应校验与增量交付 |
 | [experiments/language/](experiments/language/) | Python 参考引擎、词库、语义说明、实验与原始结果 |
 | [docs/vocabulary/](docs/vocabulary/) | 可审阅的中英文词库与结构化快照 |
-| [assets/](assets/) | 角色原图、深度素材、品牌与历史视觉迭代 |
+| [assets/](assets/) | 角色原图、深度素材、品牌、原始音视频与历史视觉迭代 |
 | [server/](server/) | 可选的 Python 开发服务；当前 App 体验不依赖它 |
 
 离线语言与跨端规则检查，在仓库根目录运行：

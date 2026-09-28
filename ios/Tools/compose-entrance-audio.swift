@@ -1,8 +1,8 @@
 // Run from the repository root. Original movie and sound files are never modified.
 import AVFoundation
 
-let movieURL = URL(fileURLWithPath: "entrance.mov")
-let soundURL = URL(fileURLWithPath: "Cymatics - ACCENT Amore - 117 BPM F Maj.wav")
+let movieURL = URL(fileURLWithPath: "assets/video/entrance.mov")
+let soundURL = URL(fileURLWithPath: "assets/audio/Cymatics - ACCENT Amore - 117 BPM F Maj.wav")
 let outputURL = URL(fileURLWithPath: "ios/JEV/Resources/Media/entrance-scored.mov")
 let movie = AVURLAsset(url: movieURL), sound = AVURLAsset(url: soundURL)
 let duration = try await movie.load(.duration)

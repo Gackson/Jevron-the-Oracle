@@ -4,7 +4,7 @@ Jester is now a real masked performer (assets/jester/master-v3.png,
 829x1897 sRGB). Its jester-scene.depth was regenerated and source-bound.
 
 Original RGB: entrance-closed/open.png, oracle/stone/jester/fool-master.png.
-User-produced video: entrance.mov, copied unchanged from repository root;
+User-produced video: entrance.mov, copied unchanged from assets/video/entrance.mov;
 5.0667s, 720x1280, 30fps. The original remains a muted fallback. A 650ms dissolve into The Oracle begins 700ms before the end; video keeps playing during the fade.
 
 Depth: oracle/stone/jester/fool-scene.depth, UInt16, 518x392, source SHA256 bound.
@@ -23,7 +23,7 @@ The paused AVPlayerLayer is already visible on the homepage, with the same
 resizeAspectFill bounds as playback. The poster only covers decoder startup.
 
 Sound-enabled entrance: entrance-scored.mov combines the original video with
-root file "Cymatics - ACCENT Amore - 117 BPM F Maj.wav" (4.102562s stereo).
+source file "assets/audio/Cymatics - ACCENT Amore - 117 BPM F Maj.wav" (4.102562s stereo).
 Both tracks start at zero; the full video duration remains 5.0667s.
 AVFoundation passthrough preserves the original video without re-encoding.
 Rebuild using: swift ios/Tools/compose-entrance-audio.swift
