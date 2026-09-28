@@ -6,6 +6,8 @@ struct EntranceView: View {
     static let dissolveDuration = 0.65
     private static let dissolveLead = 0.70
     let onEnter: () -> Void
+    @AppStorage("replyLanguage") private var language = "en"
+    private var copy: InterfaceCopy { .init(language: language) }
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.scenePhase) private var scenePhase
     @State private var player: AVPlayer?
@@ -54,19 +56,19 @@ struct EntranceView: View {
             VStack(alignment: .leading, spacing: 0) {
                 OracleWordmark()
                 if closedImage == nil {
-                    Text("ARTWORK PREVIEW").font(.caption2).tracking(2).padding(.top, 12).foregroundStyle(Palette.secondary)
+                    Text(copy["ARTWORK PREVIEW"]).font(.caption2).tracking(2).padding(.top, 12).foregroundStyle(Palette.secondary)
                 }
                 Spacer(minLength: 60)
-                Text("A few words.\nA meaning\nof your own.")
-                    .font(.system(.largeTitle, design: .serif)).fontWeight(.regular).lineSpacing(3)
+                Text(copy["Temet Nosce"])
+                    .font(OracleTypography.serif(.largeTitle, text: copy["Temet Nosce"])).fontWeight(.regular).lineSpacing(3)
                     .fixedSize(horizontal: false, vertical: true)
                     .accessibilityIdentifier("welcomeTitle")
-                Text("Bring a question.\nFour oracles. Four ways to see.")
+                Text(copy["Bring a question.\nFour oracles. Four ways to see."])
                     .font(.body).lineSpacing(4).foregroundStyle(Palette.secondary).padding(.top, 22)
                     .fixedSize(horizontal: false, vertical: true)
                 Button(action: enter) {
                     HStack {
-                        Text("Enter").fontWeight(.medium)
+                        Text(copy["Come."]).fontWeight(.medium)
                         Spacer()
                         Image(systemName: "arrow.right").font(.system(size: 20))
                     }
@@ -86,7 +88,7 @@ struct EntranceView: View {
             .foregroundStyle(Palette.ink).opacity(opening ? 0 : 1).allowsHitTesting(!opening)
             .accessibilityHidden(opening)
             if opening {
-                VStack { HStack { Spacer(); Button("Skip", action: finish).padding(16).accessibilityIdentifier("skipEntrance") }; Spacer() }
+                VStack { HStack { Spacer(); Button(copy["Skip"], action: finish).padding(16).accessibilityIdentifier("skipEntrance") }; Spacer() }
             }
         }
         .contentShape(Rectangle())

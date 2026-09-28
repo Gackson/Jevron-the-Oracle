@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Turn your spoken question into text. Hold to speak and release to send, or tap the microphone to review before sending.";
+"NSSpeechRecognitionUsageDescription" = "Transcribe your spoken question so you can ask an oracle by voice.";

@@ -28,7 +28,7 @@ Final contrast on generated imagery must be checked; a dark scene overlay curren
 
 ## Type and controls
 
-System type for controls and supporting copy, system serif for introductory headline and replies. Semantic Dynamic Type sizes, wrapping rather than shrink-to-fit. One-line responses are the default visual ambition, not a hard content limit. Buttons have minimum 44-point hit regions. Standard text editing, settings form, system microphone permission flow.
+System type for controls and supporting copy, system Latin serif for English introductory headlines and replies. Chinese serif text uses bundled Noto Serif CJK SC Regular (SIL OFL), including punctuation; it never depends on a downloadable system font. Semantic Dynamic Type sizes, wrapping rather than shrink-to-fit. One-line responses are the default visual ambition, not a hard content limit. Buttons have minimum 44-point hit regions. Standard text editing, settings form, system microphone permission flow.
 
 ## Depth and motion
 
@@ -53,3 +53,7 @@ The composer has no conditional text below it. History and input-length hints mu
 When the composer is idle, a short tap opens the keyboard and a 350ms hold begins voice capture. Releasing immediately stops capture, allows up to 800ms for the final transcription, and submits nonempty recognized speech. During active text editing, native long-press selection is preserved. The microphone button remains a separate record/stop flow that leaves transcription in the draft for review. Recording adds a subtle border and a haptic on microphone readiness, with no new text below the composer. Releasing during permission/preparation cancels the pending start; interruptions and gesture cancellation never auto-send.
 
 Character scenes now share one conversation-owned motion session. Switching keeps its current pose and reference orientation throughout the dissolve. Both incoming and outgoing scenes receive prepared depth artwork on their first frame; removing a scene cannot stop or reset the shared sensor.
+
+## Interface language
+
+The persisted language switch controls the whole interface, accessibility labels, status copy, and new replies. Chinese mode translates the welcome, character invitations, settings, spatial preview, history controls, and recoverable errors. The brand title and four character names remain English. Existing questions and answers retain their original text; status labels follow the current interface language. Both languages retain semantic Dynamic Type scaling. Native permission descriptions are bundled in English and Simplified Chinese and follow the system’s app language.

@@ -13,8 +13,10 @@
 		193A27734591296D45D2B862 /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DA5F171B2DD78AF689187 /* FlowTests.swift */; };
 		2371EF6D50166BE375B18E32 /* DreamLens.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2582CEF8325AE8C9EB3AC12E /* DreamLens.metal */; };
 		2CE076D40A9A7A15064A2765 /* ConversationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */; };
+		35C53AD344E05563421CE38C /* InterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186F8A5280C980CDAB6AD1F /* InterfaceTests.swift */; };
 		3B6ECCB645B768B3159050C9 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7538628F32D91DA3AE7C6 /* ConversationView.swift */; };
 		5CF4EA51A431E27BBAC166FD /* OracleIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 75F207AAF67E516B6D276F8F /* OracleIcon.icon */; };
+		781BF2A8696B97012898BD9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B97CBC77A4096EA62E7B89F /* InfoPlist.strings */; };
 		7A0AF4FAB9B4307A9BEBE589 /* KeySettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8502FB360E71A91AEDFCCC0 /* KeySettingsTests.swift */; };
 		7C432E7FCA3F69018B4687C0 /* BrandAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8B6F112971DDA9B7F1FA0 /* BrandAssets.xcassets */; };
 		7C4EAA9DFBDA65CA40933883 /* SpatialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA94710C4D15248E2C6A9B4 /* SpatialTests.swift */; };
@@ -24,11 +26,13 @@
 		991EAE7D3E71443E33E607D1 /* WordReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A3DCF67C1C8EE13EA9DBD /* WordReveal.swift */; };
 		B7657873B739E9899A58B3D8 /* DirectJEVClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49420DBE81ACD7C452BDD4B /* DirectJEVClient.swift */; };
 		B8713E13640E5E306BFD5AD7 /* DirectJEVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2734A4E795618D1906C530 /* DirectJEVTests.swift */; };
+		BB5107F7F0B37F52E9417A15 /* InterfaceCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866769479E06BB6234BC2071 /* InterfaceCopy.swift */; };
 		C15627760B971DCDEA0E6690 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554DD1D1BE9C3E4F97819BB /* SceneView.swift */; };
 		DF032C9B6D51E1A37FCD00CE /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EF1C979D85829D0851F9D5 /* EntranceView.swift */; };
 		EC6AC02A828900F531E2214B /* SpatialPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A83FD5258F5367E04406CF /* SpatialPreview.swift */; };
 		EDC27555BD91C5F60E203A9C /* Language in Resources */ = {isa = PBXBuildFile; fileRef = C29C11757CE26C4B9F5C208A /* Language */; };
 		EFC6A5EAB9E455D3BCD9181F /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */; };
+		F7C783430DF884AD067480E2 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 59E6BAD5BB32CAC2F874404F /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +58,14 @@
 		29C6D66FF54572A6B2CDB815 /* JEVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEVApp.swift; sourceTree = "<group>"; };
 		40A17BF5FB5C29B9BD07E7AC /* OracleBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleBrand.swift; sourceTree = "<group>"; };
 		4554DD1D1BE9C3E4F97819BB /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		4E74BF4B9D90311807CE17DD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		59E6BAD5BB32CAC2F874404F /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = JEV/Resources/Fonts; sourceTree = SOURCE_ROOT; };
+		6186F8A5280C980CDAB6AD1F /* InterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceTests.swift; sourceTree = "<group>"; };
 		6B4C04CAD0FA583E63646178 /* SpeechInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechInput.swift; sourceTree = "<group>"; };
 		6B633D1BCDC4CE735F0D7499 /* SpatialArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialArtwork.swift; sourceTree = "<group>"; };
 		734A3DCF67C1C8EE13EA9DBD /* WordReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordReveal.swift; sourceTree = "<group>"; };
 		75F207AAF67E516B6D276F8F /* OracleIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = OracleIcon.icon; sourceTree = "<group>"; };
+		866769479E06BB6234BC2071 /* InterfaceCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceCopy.swift; sourceTree = "<group>"; };
 		86A83FD5258F5367E04406CF /* SpatialPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialPreview.swift; sourceTree = "<group>"; };
 		8FC7538628F32D91DA3AE7C6 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
 		93EF1C979D85829D0851F9D5 /* EntranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
@@ -68,15 +76,26 @@
 		C29C11757CE26C4B9F5C208A /* Language */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Language; path = JEV/Resources/Language; sourceTree = SOURCE_ROOT; };
 		C8502FB360E71A91AEDFCCC0 /* KeySettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySettingsTests.swift; sourceTree = "<group>"; };
 		CFE7AA6FB1DE6434F6409EB2 /* ReadingAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingAPITests.swift; sourceTree = "<group>"; };
+		D1D1B795B1559AA7876E28E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D45AD78B254E5797C5C12972 /* JEVUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JEVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49420DBE81ACD7C452BDD4B /* DirectJEVClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectJEVClient.swift; sourceTree = "<group>"; };
 		DA2734A4E795618D1906C530 /* DirectJEVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectJEVTests.swift; sourceTree = "<group>"; };
 		F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTests.swift; sourceTree = "<group>"; };
 		F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
 		F9E0F9E6BA0B3E98E61DEC77 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Media; path = JEV/Resources/Media; sourceTree = SOURCE_ROOT; };
+		F9EA079F94B44746363EB96F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		12016E3E97AEAB1907EDB532 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				8B97CBC77A4096EA62E7B89F /* InfoPlist.strings */,
+			);
+			name = Localization;
+			path = JEV/Resources/Localization;
+			sourceTree = "<group>";
+		};
 		3E93D9997B2D53089962B8F5 /* JEVUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,11 +108,13 @@
 		5FFB18916EFF97902230AED8 = {
 			isa = PBXGroup;
 			children = (
+				59E6BAD5BB32CAC2F874404F /* Fonts */,
 				C29C11757CE26C4B9F5C208A /* Language */,
 				F9E0F9E6BA0B3E98E61DEC77 /* Media */,
 				7AF24D66B47036937225AE5A /* JEV */,
 				B22C5AC70AC043FDBD005160 /* JEVTests */,
 				3E93D9997B2D53089962B8F5 /* JEVUITests */,
+				12016E3E97AEAB1907EDB532 /* Localization */,
 				9780881FDC482F270396E5C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +128,8 @@
 				F8A1CA9BA4F4C65E143A58A0 /* Domain.swift */,
 				2582CEF8325AE8C9EB3AC12E /* DreamLens.metal */,
 				93EF1C979D85829D0851F9D5 /* EntranceView.swift */,
+				D1D1B795B1559AA7876E28E2 /* Info.plist */,
+				866769479E06BB6234BC2071 /* InterfaceCopy.swift */,
 				29C6D66FF54572A6B2CDB815 /* JEVApp.swift */,
 				40A17BF5FB5C29B9BD07E7AC /* OracleBrand.swift */,
 				75F207AAF67E516B6D276F8F /* OracleIcon.icon */,
@@ -134,6 +157,7 @@
 			children = (
 				F45EF532482EC0DDE0A9E2F8 /* ConversationTests.swift */,
 				DA2734A4E795618D1906C530 /* DirectJEVTests.swift */,
+				6186F8A5280C980CDAB6AD1F /* InterfaceTests.swift */,
 				CFE7AA6FB1DE6434F6409EB2 /* ReadingAPITests.swift */,
 				ABA94710C4D15248E2C6A9B4 /* SpatialTests.swift */,
 			);
@@ -220,6 +244,7 @@
 			knownRegions = (
 				Base,
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 5FFB18916EFF97902230AED8;
 			minimizedProjectReferenceProxies = 1;
@@ -241,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C432E7FCA3F69018B4687C0 /* BrandAssets.xcassets in Resources */,
+				F7C783430DF884AD067480E2 /* Fonts in Resources */,
+				781BF2A8696B97012898BD9C /* InfoPlist.strings in Resources */,
 				EDC27555BD91C5F60E203A9C /* Language in Resources */,
 				8185142DF9B86C3DADD6BD88 /* Media in Resources */,
 				5CF4EA51A431E27BBAC166FD /* OracleIcon.icon in Resources */,
@@ -265,6 +292,7 @@
 			files = (
 				2CE076D40A9A7A15064A2765 /* ConversationTests.swift in Sources */,
 				B8713E13640E5E306BFD5AD7 /* DirectJEVTests.swift in Sources */,
+				35C53AD344E05563421CE38C /* InterfaceTests.swift in Sources */,
 				08569A22F95E4A739AF4E6D3 /* ReadingAPITests.swift in Sources */,
 				7C4EAA9DFBDA65CA40933883 /* SpatialTests.swift in Sources */,
 			);
@@ -279,6 +307,7 @@
 				EFC6A5EAB9E455D3BCD9181F /* Domain.swift in Sources */,
 				2371EF6D50166BE375B18E32 /* DreamLens.metal in Sources */,
 				DF032C9B6D51E1A37FCD00CE /* EntranceView.swift in Sources */,
+				BB5107F7F0B37F52E9417A15 /* InterfaceCopy.swift in Sources */,
 				9749E0CAC8939BF9368F8A3A /* JEVApp.swift in Sources */,
 				962E21ADD0CE6DAE7657AC42 /* OracleBrand.swift in Sources */,
 				C15627760B971DCDEA0E6690 /* SceneView.swift in Sources */,
@@ -303,6 +332,18 @@
 			targetProxy = A05910445E816360EA087F00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B97CBC77A4096EA62E7B89F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EA079F94B44746363EB96F /* en */,
+				4E74BF4B9D90311807CE17DD /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0850C55C00B0B762D43CB6B7 /* Debug */ = {
@@ -379,6 +420,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q8S3VVCGHQ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JEV/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Jevons the Oracle";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turn your spoken question into text for you to review before sending.";
@@ -474,6 +516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q8S3VVCGHQ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JEV/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Jevons the Oracle";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turn your spoken question into text for you to review before sending.";

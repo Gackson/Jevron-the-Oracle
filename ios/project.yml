@@ -21,6 +21,18 @@ targets:
       - path: JEV/Resources/Language
         type: folder
         buildPhase: resources
+      - path: JEV/Resources/Fonts
+        type: folder
+        buildPhase: resources
+      - path: JEV/Resources/Localization
+        buildPhase: resources
+    info:
+      path: JEV/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UIAppFonts: [Fonts/NotoSerifCJKsc-Regular.otf]
+        CFBundleLocalizations: [en, zh-Hans]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.jev.oracle

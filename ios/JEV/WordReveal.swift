@@ -19,6 +19,7 @@ struct WordReveal: View {
                              breathing: streaming && index == words.count - 1)
             }
         }
+        .font(OracleTypography.serif(.title2, text: text))
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(text)
         .accessibilityIdentifier("answer")
@@ -47,7 +48,6 @@ private struct ArrivingWord: View {
     @State private var glow = false
     var body: some View {
         Text(text)
-            .font(.system(.title2, design: .serif))
             .foregroundStyle(Palette.ink)
             .opacity(arrived || !animate || reduceMotion ? 1 : 0)
             .offset(y: arrived || !animate || reduceMotion ? 0 : 4)

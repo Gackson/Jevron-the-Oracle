@@ -200,7 +200,7 @@ final class FlowTests: XCTestCase {
         XCTAssertTrue(app.buttons["enterButton"].waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons["characterMenu"].exists)
         enter()
-        XCTAssertTrue(app.staticTexts["What weighs on your mind?"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["You've already made your choice."].waitForExistence(timeout: 5))
     }
 
 

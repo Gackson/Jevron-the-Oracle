@@ -41,6 +41,8 @@ struct RootView: View {
         }
         return DirectJEVClient()
     }
+    private var copy: InterfaceCopy { .init(language: replyLanguage) }
+
     private var isLatest: Bool { visibleTurn == nil || visibleTurn == store.displayHistory.last?.id }
 
     var body: some View {
@@ -76,6 +78,7 @@ struct RootView: View {
                 visibleTurn = nil
             }
         }
+        .environment(\.locale, Locale(identifier: replyLanguage))
         .onAppear {
             if ProcessInfo.processInfo.arguments.contains("--uitesting") {
                 if !ProcessInfo.processInfo.arguments.contains("--uitesting-keep-language") { replyLanguage = "en" }
@@ -150,10 +153,10 @@ struct RootView: View {
                     if store.displayHistory.isEmpty {
                         VStack(spacing: 12) {
                             Spacer(minLength: 0)
-                            Text(store.selected.invitation)
-                                .font(.system(.title2, design: .serif))
+                            Text(copy[store.selected.invitation])
+                                .font(OracleTypography.serif(.title2, text: copy[store.selected.invitation]))
                                 .multilineTextAlignment(.center)
-                            Text(store.selected.rule).font(.footnote).foregroundStyle(Palette.secondary)
+                            Text(copy[store.selected.rule]).font(.footnote).foregroundStyle(Palette.secondary)
                         }
                         .padding(.horizontal, 30).padding(.bottom, 36)
                         .frame(width: geometry.size.width, height: geometry.size.height)
@@ -213,7 +216,7 @@ struct RootView: View {
                         .accessibilityIdentifier("character_\(character.rawValue)")
                     }
                     Divider()
-                    Button("About " + OracleBrand.name) {
+                    Button(copy["About "] + OracleBrand.name) {
                         speech.stop(); store.cancel(); inputFocused = false
                         showEntrance = true
                     }
@@ -224,16 +227,16 @@ struct RootView: View {
                         .padding(.horizontal, 16)
                         .modifier(OracleControlGlass())
                 }
-                .accessibilityLabel("Choose character. \(store.selected.name) selected")
+                .accessibilityLabel(copy.selectedCharacter(store.selected.name))
                 .accessibilityIdentifier("characterMenu")
                 .accessibilityValue(isFixedTiltTest ? "tilt:\(sceneMotion.pose.x),\(sceneMotion.pose.y)" : "")
                 Spacer()
                 Button { showSettings = true } label: { Image(systemName: "ellipsis").font(.system(size: 20)).frame(width: 44, height: 44) }
                     .modifier(OracleControlGlass())
-                    .accessibilityLabel("Settings").accessibilityIdentifier("settingsButton")
+                    .accessibilityLabel(copy["Settings"]).accessibilityIdentifier("settingsButton")
             }
             if previewMode || Media.url("\(store.selected.rawValue)-master") == nil {
-                Text(previewMode ? "PREVIEW · SAMPLE REPLIES" : "ARTWORK PREVIEW")
+                Text(copy[previewMode ? "PREVIEW · SAMPLE REPLIES" : "ARTWORK PREVIEW"])
                     .font(.system(size: 10, weight: .medium)).tracking(1.6).foregroundStyle(Palette.secondary)
             }
         }
@@ -247,8 +250,8 @@ struct RootView: View {
                 Text(turn.question).font(.footnote).foregroundStyle(Palette.secondary)
                     .multilineTextAlignment(.center).textSelection(.enabled)
                 if turn.answer.isEmpty && turn.id == store.activeRequest {
-                    Text("Listening for an echo…")
-                        .font(.system(.title2, design: .serif))
+                    Text(copy["Listening for an echo…"])
+                        .font(OracleTypography.serif(.title2, text: copy["Listening for an echo…"]))
                         .modifier(EchoBreath(accent: Palette.accent(store.selected), active: true))
                         .accessibilityIdentifier("waitingEcho")
                 } else {
@@ -256,7 +259,7 @@ struct RootView: View {
                                animate: turn.id == store.latestRevealingID && !seenReveals.contains(turn.id),
                                accent: Palette.accent(store.selected), streaming: turn.id == store.activeRequest)
                 }
-                Text(turn.isPreview ? "Sample reply" : turn.isAuthoredFallback ? turn.fallbackLabel : turn.date.formatted(date: .omitted, time: .shortened))
+                Text(turn.isPreview ? copy["Sample reply"] : turn.isAuthoredFallback ? turn.fallbackLabel(language: replyLanguage) : turn.date.formatted(.dateTime.hour().minute().locale(Locale(identifier: replyLanguage))))
                     .font(.caption2).foregroundStyle(Palette.secondary)
                     .opacity(turn.id == store.activeRequest ? 0 : 1)
                 Spacer(minLength: 20)
@@ -270,22 +273,22 @@ struct RootView: View {
 
     @ViewBuilder private var statusArea: some View {
         if let error = store.errorMessage ?? speech.message {
-            Text(error).font(.footnote).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
+            Text(copy[error]).font(.footnote).foregroundStyle(Palette.ink).multilineTextAlignment(.center)
                 .padding(.horizontal, 26).padding(.bottom, 8).accessibilityIdentifier("errorMessage")
         }
         if store.displayHistory.count > 1 {
             HStack(spacing: 16) {
                 Button { moveHistory(-1) } label: { Image(systemName: "chevron.up").frame(width: 44, height: 44) }
-                    .accessibilityLabel("Earlier reply").accessibilityIdentifier("earlierReply")
+                    .accessibilityLabel(copy["Earlier reply"]).accessibilityIdentifier("earlierReply")
                     .disabled(visibleIndex == 0)
                 if !isLatest {
-                    Button("Back to latest") { visibleTurn = store.displayHistory.last?.id }
+                    Button(copy["Back to latest"]) { visibleTurn = store.displayHistory.last?.id }
                         .font(.caption).accessibilityIdentifier("backToLatest")
                 } else {
-                    Text("\(store.displayHistory.count) echoes").font(.caption).foregroundStyle(Palette.secondary)
+                    Text(copy.echoes(store.displayHistory.count)).font(.caption).foregroundStyle(Palette.secondary)
                 }
                 Button { moveHistory(1) } label: { Image(systemName: "chevron.down").frame(width: 44, height: 44) }
-                    .accessibilityLabel("Later reply").disabled(isLatest)
+                    .accessibilityLabel(copy["Later reply"]).disabled(isLatest)
             }
         }
     }
@@ -313,16 +316,16 @@ struct RootView: View {
                         .frame(width: 44, height: 44)
                 }
                 .disabled(store.isWaiting)
-                .accessibilityLabel(speech.isRecording || speech.isPreparing ? "Stop listening" : "Speak your question")
+                .accessibilityLabel(copy[speech.isRecording || speech.isPreparing ? "Stop listening" : "Speak your question"])
                 .accessibilityIdentifier("speechButton")
-                TextField(typeSize.isAccessibilitySize ? "Ask" : "Your question", text: Binding(get: { store.draft }, set: { store.draft = $0 }), axis: .vertical)
+                TextField(copy[typeSize.isAccessibilitySize ? "Ask" : "Your question"], text: Binding(get: { store.draft }, set: { store.draft = $0 }), axis: .vertical)
                     .textFieldStyle(.plain)
                     .font(.body).lineLimit(1...(typeSize.isAccessibilitySize ? 2 : 4))
                     .padding(.vertical, 12)
                     .focused($inputFocused)
                     .disabled(store.isWaiting || (voicePressID == nil && (speech.isRecording || speech.isPreparing)))
                     .accessibilityIdentifier("questionInput")
-                    .accessibilityHint("Tap to type. Touch and hold to speak, then release to send.")
+                    .accessibilityHint(copy["Tap to type. Touch and hold to speak, then release to send."])
                     .overlay {
                         if !inputFocused && (!speech.isRecording && !speech.isPreparing || voicePressID != nil) {
                             HoldToSpeakSurface(onTap: { inputFocused = true }, onBegin: beginVoicePress,
@@ -339,7 +342,7 @@ struct RootView: View {
                 .foregroundStyle(store.canSend ? Palette.canvas : Palette.secondary)
                 .frame(width: 44, height: 44)
                 .disabled(!store.canSend || speech.isRecording || speech.isPreparing)
-                .accessibilityLabel("Send question").accessibilityIdentifier("sendButton")
+                .accessibilityLabel(copy["Send question"]).accessibilityIdentifier("sendButton")
             }
             .padding(.horizontal, 7).padding(.vertical, 3)
             .modifier(ComposerGlass())
@@ -484,11 +487,12 @@ private struct SettingsView: View {
     @State private var apiKey = ""
     @State private var keyConfigured = DirectJEVClient.isConfigured
     @State private var keyMessage: String?
+    private var copy: InterfaceCopy { .init(language: language) }
     var body: some View {
         NavigationStack {
             Form {
-                Section("Reply language · 回答语言") {
-                    Picker("Language", selection: $language) {
+                Section(copy["Reply language"]) {
+                    Picker(copy["Language"], selection: $language) {
                         ForEach(AnswerLanguage.allCases) { option in
                             Text(option.title).tag(option.rawValue)
                         }
@@ -496,49 +500,50 @@ private struct SettingsView: View {
                     .pickerStyle(.segmented)
                     .accessibilityIdentifier("replyLanguagePicker")
                 }
-                Section("Experience") {
-                    Toggle("Depth & dream effects", isOn: $effects)
-                    NavigationLink("Spatial preview") { SpatialPreview() }
+                Section(copy["Experience"]) {
+                    Toggle(copy["Depth & dream effects"], isOn: $effects)
+                    NavigationLink(copy["Spatial preview"]) { SpatialPreview() }
                         .accessibilityIdentifier("spatialPreview")
                 }
-                Section("Connection") {
-                    Toggle("Sample replies", isOn: $preview)
-                    Text(keyConfigured ? "API key saved on this device" : "Add your API key to begin")
+                Section(copy["Connection"]) {
+                    Toggle(copy["Sample replies"], isOn: $preview)
+                    Text(copy[keyConfigured ? "API key saved on this device" : "Add your API key to begin"])
                         .font(.footnote).accessibilityIdentifier("jevAPIKeyStatus")
-                    SecureField(keyConfigured ? "Replace API key" : "API key", text: $apiKey)
+                    SecureField(copy[keyConfigured ? "Replace API key" : "API key"], text: $apiKey)
                         .textInputAutocapitalization(.never).autocorrectionDisabled()
                         .accessibilityIdentifier("jevAPIKeyInput")
-                    Button(keyConfigured ? "Replace key" : "Save key") {
+                    Button(copy[keyConfigured ? "Replace key" : "Save key"]) {
                         do { try JEVKeychain.save(apiKey); apiKey = ""; keyConfigured = true; keyMessage = nil }
                         catch { keyMessage = error.localizedDescription }
                     }
                     .disabled(apiKey.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     .accessibilityIdentifier("saveJEVAPIKey")
                     if keyConfigured {
-                        Button("Delete key", role: .destructive) {
+                        Button(copy["Delete key"], role: .destructive) {
                             do { try JEVKeychain.delete(); apiKey = ""; keyConfigured = false; keyMessage = nil }
                             catch { keyMessage = error.localizedDescription }
                         }.accessibilityIdentifier("deleteJEVAPIKey")
                     }
                 }
                 Section {
-                    Button("Clear this conversation", role: .destructive) { confirmClear = true }
-                } footer: { Text("Questions and replies stay in memory for this session. Your API key is stored in this device’s Keychain; character and display preferences are saved locally.") }
-                Section("Artwork") {
-                    Text(Media.entranceVideoURL == nil
+                    Button(copy["Clear this conversation"], role: .destructive) { confirmClear = true }
+                } footer: { Text(copy["Questions and replies stay in memory for this session. Your API key is stored in this device’s Keychain; character and display preferences are saved locally."]) }
+                Section(copy["Artwork"]) {
+                    Text(copy[Media.entranceVideoURL == nil
                          ? "Character artwork is installed. Entry dissolves into The Oracle when the curtain video is unavailable."
-                         : "Character images and the curtain video are loaded from the app’s media folder. Missing images show a development scene.")
+                         : "Character images and the curtain video are loaded from the app’s media folder. Missing images show a development scene."])
                         .font(.footnote).foregroundStyle(.secondary)
                 }
             }
-            .navigationTitle("Settings").navigationBarTitleDisplayMode(.inline)
+            .navigationTitle(copy["Settings"]).navigationBarTitleDisplayMode(.inline)
             .onDisappear { apiKey = "" }
-            .alert("Couldn’t update API key", isPresented: Binding(get: { keyMessage != nil }, set: { if !$0 { keyMessage = nil } })) {
-                Button("OK") { keyMessage = nil }
-            } message: { Text(keyMessage ?? "") }
-            .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() } } }
-            .confirmationDialog("Clear this character’s conversation?", isPresented: $confirmClear, titleVisibility: .visible) {
-                Button("Clear conversation", role: .destructive) { onClear() }
+            .alert(copy["Couldn’t update API key"], isPresented: Binding(get: { keyMessage != nil }, set: { if !$0 { keyMessage = nil } })) {
+                Button(copy["OK"]) { keyMessage = nil }
+            } message: { Text(copy[keyMessage ?? ""]) }
+            .toolbar { ToolbarItem(placement: .confirmationAction) { Button(copy["Done"]) { dismiss() }.accessibilityIdentifier("settingsDone") } }
+            .confirmationDialog(copy["Clear this character’s conversation?"], isPresented: $confirmClear, titleVisibility: .visible) {
+                Button(copy["Clear conversation"], role: .destructive) { onClear() }
+                Button(copy["Cancel"], role: .cancel) {}
             }
         }
     }

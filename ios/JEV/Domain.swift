@@ -37,7 +37,7 @@ enum OracleCharacter: String, CaseIterable, Codable, Identifiable, Sendable {
     }
     var invitation: String {
         switch self {
-        case .oracle: return "What weighs on your mind?"
+        case .oracle: return "You've already made your choice."
         case .stone: return "Leave a question in the quiet."
         case .jester: return "What are you so certain of?"
         case .fool: return "What shall we make wonderfully strange?"
@@ -45,7 +45,7 @@ enum OracleCharacter: String, CaseIterable, Codable, Identifiable, Sendable {
     }
     var rule: String {
         switch self {
-        case .oracle: return "A few words. Room for yours."
+        case .oracle: return "Now, discover why."
         case .stone: return "A thought, held in silence."
         case .jester: return "An unexpected turn."
         case .fool: return "A little sense. A little nonsense."
@@ -63,8 +63,9 @@ struct ReadingTurn: Identifiable, Codable, Sendable {
     var generationStopReason: String? = nil
     var locale: String? = nil
     var isAuthoredFallback: Bool { origin == "authored_fallback" }
-    var fallbackLabel: String {
-        if locale == "zh-Hans" {
+    var fallbackLabel: String { fallbackLabel(language: locale ?? "en") }
+    func fallbackLabel(language: String) -> String {
+        if language == "zh-Hans" {
             let reason: String
             switch generationStopReason {
             case "transport_error": reason = "连接中断"
@@ -73,6 +74,7 @@ struct ReadingTurn: Identifiable, Codable, Sendable {
             case "http_401", "http_403": reason = "请检查密钥"
             case "http_429": reason = "服务请求过于频繁"
             case "invalid_model_output", "composition_error", "step_limit": reason = "未能完成回答"
+            case "resources": reason = "语言资源暂不可用"
             default: reason = "暂时无法生成回答"
             }
             return reason + " · 角色备用回复"

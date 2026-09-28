@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "将你说出的问题转成文字。长按说话、松开发送，也可以轻点麦克风，确认文字后再发送。";
+"NSSpeechRecognitionUsageDescription" = "将语音转成文字，让你用说话的方式向先知提问。";
