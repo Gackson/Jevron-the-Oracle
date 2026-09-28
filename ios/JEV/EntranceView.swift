@@ -36,6 +36,12 @@ struct EntranceView: View {
                             .opacity(videoReady ? 1 : 0)
                             .accessibilityIdentifier("entranceVideo")
                     }
+                    if !reduceMotion {
+                        CandlelightOverlay(paused: opening || scenePhase != .active)
+                            .opacity(opening ? 0 : 1)
+                            .allowsHitTesting(false)
+                            .accessibilityHidden(true)
+                    }
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height)
                 .clipped()
@@ -184,6 +190,33 @@ struct EntranceView: View {
         }
         fallbackTask?.cancel()
         onEnter()
+    }
+}
+
+/// Gentle, uneven illumination over the still frame; text remains unaffected.
+private struct CandlelightOverlay: View {
+    let paused: Bool
+    @State private var start = Date()
+
+    var body: some View {
+        TimelineView(.animation(minimumInterval: 1.0 / 30, paused: paused)) { timeline in
+            let time = timeline.date.timeIntervalSince(start)
+            // Different frequencies avoid a regular breathing/pulsing rhythm.
+            let light = 0.5 + 0.26 * sin(time * 1.7)
+                + 0.16 * sin(time * 4.3 + 0.8) + 0.08 * sin(time * 9.1 + 2.1)
+            GeometryReader { geometry in
+                ZStack {
+                    Color.black.opacity(0.02 + 0.18 * (1 - light))
+                    RadialGradient(
+                        colors: [Color(red: 1, green: 0.80, blue: 0.59).opacity(0.035 + 0.26 * light), .clear],
+                        center: UnitPoint(x: 0.1, y: 0.2),
+                        startRadius: 0,
+                        endRadius: max(geometry.size.width, geometry.size.height) * 0.95
+                    )
+                    .blendMode(.screen)
+                }
+            }
+        }
     }
 }
 
